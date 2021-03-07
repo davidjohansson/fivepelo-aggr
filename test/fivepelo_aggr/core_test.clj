@@ -4,17 +4,19 @@
 
 (deftest groupByWeekAndPerson-test
   (def sut (groupByWeekAndPerson (testData)))
-  (def firstWeekParticipants (comp :participants #(first %)))
-  (def firstWeekParticipantsFirstTraining (comp #(map first %) #(map :training %) #(firstWeekParticipants %)))
+  (def nthWeekParticipants (comp :participants #(nth %1 %2)))
+
+  (def firstWeekParticipantsFirstTrainings (comp #(map first %) #(map :training %) #(nthWeekParticipants % 0)))
 
   (testing "A list of length 1"
     (is (= 2 (count sut)))
+
     (is (= 48 (get (first sut) :weekOfYear)))
-    (is (= '("David Johansson" "Johanna Ljung") (map :name (firstWeekParticipants sut))))
-    (is (= '("Löpning Rocklunda" "Yoga") (map :activity (firstWeekParticipantsFirstTraining sut))))
-    (is (= '("20201201" "20201131") (map :date (firstWeekParticipantsFirstTraining sut))))
+    (is (= '("David Johansson" "Johanna Ljung") (map :name (nthWeekParticipants sut 0))))
+    (is (= '("Löpning Rocklunda" "Yoga") (map :activity (firstWeekParticipantsFirstTrainings sut))))
+    (is (= '("20201201" "20201131") (map :date (firstWeekParticipantsFirstTrainings sut))))
 
     (is (= 49 (get (nth sut 1) :weekOfYear)))
-
+    (is (= '("David Johansson" "Johanna Ljung" "Peter") (map :name (nthWeekParticipants sut 1))))
     )
   )
