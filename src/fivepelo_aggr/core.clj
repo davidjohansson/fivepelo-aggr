@@ -41,7 +41,6 @@
   (and (>= actual from) (<= actual to))
   )
 
-
 (defn extractTrainingEntriesFromSheet
   "Returns entries containing row number, colnumber and activity from the spreadsheet for one person/gs sheet
   Example output:  {:row 7, :col 6, :activity \"Arnold\"}
