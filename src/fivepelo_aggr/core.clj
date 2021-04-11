@@ -1,16 +1,16 @@
 (ns fivepelo-aggr.core
   (:require
-   [clojure.data.json :as json]
-   [cheshire.core :refer :all]
-   [java-time :as jt]))
+    [clojure.data.json :as json]
+    [cheshire.core :refer :all]
+    [java-time :as jt]
+    [clojure.edn :as edn]
+    [fivepelo-aggr.helpers :as helpers]
+    ))
 
-(defn parseDate
-  [date]
-  (jt/local-date "yyyyMMdd" date))
 
 (defn weekOfYear
   [activity]
-  (jt/as (parseDate (get activity :date)) :aligned-week-of-year))
+  (jt/as (helpers/parseDate (get activity :date)) :aligned-week-of-year))
 
 (defn groupByPersonInternal
   [entry]
@@ -30,30 +30,26 @@
   [eventStream]
   (groupByPerson (groupByWeek eventStream)))
 
-;Helpers
-(defn jsonToClj [json]
-  (json/read-str json :key-fn keyword))
 
-(defn cljToJson [clj]
-  (generate-string clj {:pretty true}))
+(defn trainingEntry
+  [entry]
+  (:gs$cell entry)
+  )
 
-(defn testData
-  "Generate test data from the test.json file"
-  []
-  (jsonToClj (slurp "test.json")))
+(defn betweenInclusive
+  [actual from to]
+  (and (>= actual from) (<= actual to))
+  )
 
-(def a {:participants [{:type     "activity",
-                        :name     "David Johansson",
-                        :id       "23ekjlkf22",
-                        :date     "20201201",
-                        :activity "Löpning Rocklunda"}
-                       {:type     "activity",
-                        :name     "Johanna Ljung",
-                        :id       "djk22lad2",
-                        :date     "20201201",
-                        :activity "Yoga m adrienned"}]})
 
-(defn pp
-  ""
-  [o]
-  (clojure.pprint/pprint o))
+(defn extractTrainingEntriesFromSheet
+  "Returns entries containing row number, colnumber and activity from the spreadsheet for one person/gs sheet
+  Example output:  {:row 7, :col 6, :activity \"Arnold\"}
+  Rows and cols as they appear in the spreadsheet"
+  [sheet]
+  (filter #(and (betweenInclusive (:col %) 2 8) (betweenInclusive (:row %) 3 9))
+          (map #(assoc {} :row (edn/read-string(:row %)) :col (edn/read-string(:col %)) :activity (:inputValue %) )
+               (map trainingEntry (:entry (:feed sheet)))
+               )
+          )
+  )
