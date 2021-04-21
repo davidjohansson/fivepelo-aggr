@@ -20,7 +20,7 @@ För att ladda namespace, t ex core:
 user=> (use 'fivepelo-aggr.core :reload)
 ```
 
-### Bygga upp  eventström 
+### Bygga upp eventström 
 1. Extrahera datum från "Ställning"-sidan: TODO
 2. Extrahera namn från personsheeten: TODO   
 2. Extrahera träningsaktiviteter från personsheeten:

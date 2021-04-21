@@ -6,7 +6,7 @@
 
 (defn parseDate
   [date]
-  (jt/local-date "yyyyMMdd" date))
+  (jt/local-date "yyyy-MM-dd" date))
 
 ;Helpers
 (defn jsonToClj [json]

@@ -2,7 +2,7 @@
   (:require
    [clojure.data.json :as json]
    [clojure.java.io :as io]
-   [fivepelo-aggr.core :as core]
+   [fivepelo-aggr.stateFromEventStream :as core]
    [uswitch.lambada.core :refer [deflambdafn]]))
 
 (defn handle-event

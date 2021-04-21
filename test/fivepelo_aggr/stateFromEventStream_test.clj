@@ -1,6 +1,8 @@
-(ns fivepelo-aggr.core-test
+(ns fivepelo-aggr.stateFromEventStream_test
   (:require [clojure.test :refer :all]
-            [fivepelo-aggr.core :refer :all]))
+            [fivepelo-aggr.stateFromEventStream :refer :all]
+            [fivepelo-aggr.helpers :refer :all]
+            ))
 
 (deftest groupByWeekAndPerson-test
   (def sut (groupByWeekAndPerson (testData)))
