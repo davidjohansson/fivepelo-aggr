@@ -3,35 +3,35 @@
     "type": "activity",
     "name": "David Johansson",
     "id": "23ekjlkf22",
-    "date": "20201201",
+    "date": "2020-12-01",
     "activity": "Löpning Rocklunda"
   },
   {
     "type": "activity",
     "name": "Johanna Ljung",
     "id": "djk22lad2",
-    "date": "20201131",
+    "date": "2020-11-31",
     "activity": "Yoga"
   },
   {
     "type": "activity",
     "name": "David Johansson",
     "id": "23ekjlkf22",
-    "date": "20201202",
+    "date": "2020-12-02",
     "activity": "Löpning Rocklunda"
   },
   {
     "type": "activity",
     "name": "David Johansson",
     "id": "23ekjlkf22",
-    "date": "20201203",
+    "date": "2020-12-03",
     "activity": "Löpning Rocklunda"
   },
   {
     "type": "activity",
     "name": "Johanna Ljung",
     "id": "djk22lad2",
-    "date": "20201203",
+    "date": "2020-12-03",
     "activity": "Pamela"
   },
   {
@@ -39,15 +39,15 @@
     "team": "genesis",
     "name": "Johanna Ljung",
 
-    "id": "20201204_johanna_ljung",
-    "date": "20201204",
+    "id": "2020-12-04_johanna_ljung",
+    "date": "2020-12-04",
     "activity": "Pamela igen"
   },
   {
     "type": "activity",
     "name": "Peter",
     "id": "sa231ddd2",
-    "date": "20201204",
+    "date": "2020-12-04",
     "activity": "Springa"
   }
 ]

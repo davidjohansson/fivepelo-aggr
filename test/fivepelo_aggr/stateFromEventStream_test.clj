@@ -16,7 +16,7 @@
     (is (= 48 (get (first sut) :weekOfYear)))
     (is (= '("David Johansson" "Johanna Ljung") (map :name (nthWeekParticipants sut 0))))
     (is (= '("Löpning Rocklunda" "Yoga") (map :activity (firstWeekParticipantsFirstTrainings sut))))
-    (is (= '("20201201" "20201131") (map :date (firstWeekParticipantsFirstTrainings sut))))
+    (is (= '("2020-12-01" "2020-11-31") (map :date (firstWeekParticipantsFirstTrainings sut))))
 
     (is (= 49 (get (nth sut 1) :weekOfYear)))
     (is (= '("David Johansson" "Johanna Ljung" "Peter") (map :name (nthWeekParticipants sut 1))))

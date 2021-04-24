@@ -1,4 +1,5 @@
 (ns fivepelo-aggr.helpers
+  (:gen-class)
   (:require
     [clojure.data.json :as json]
     [cheshire.core :refer :all]
@@ -13,17 +14,24 @@
   (json/read-str json :key-fn keyword))
 
 (defn cljToJson [clj]
-  (generate-string clj {:pretty true}))
+  ;(generate-string clj {:pretty true}))
+  (generate-string clj))
 
 (defn testData
   "Generate test data from the test.json file"
   []
   (jsonToClj (slurp "test.json")))
 
+(defn sheetData
+  "Generate test data from the provider .json file"
+  [file]
+  (jsonToClj (slurp file)))
+
 (defn testDataGs
   "Generate test data from the raw-from.gs.json file"
   []
-  (jsonToClj (slurp "raw-from-gs.json")))
+  (sheetData "raw-from-gs.json"))
+
 
 (def a {:participants [{:type     "activity",
                         :name     "David Johansson",
@@ -35,6 +43,11 @@
                         :id       "djk22lad2",
                         :date     "20201201",
                         :activity "Yoga m adrienned"}]})
+
+(defn jsonClearString
+  [str]
+  (clojure.string/replace str #"\"" "")
+  )
 
 (defn pprnt
   ""

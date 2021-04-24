@@ -9,4 +9,6 @@
                  [clojure.java-time "0.3.2"]
                  [cheshire "5.10.0"]]
   :uberjar-name "fivepelo-aggr.jar"
+  :main fivepelo-aggr.eventStreamFromSheet
   :profiles {:uberjar {:aot :all :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
+
