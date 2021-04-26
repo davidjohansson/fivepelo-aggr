@@ -42,6 +42,10 @@
      "David"   :d38b9d8f-c6c8-4952-acda-ce292c670ff8
      "Henrik"  :0f1a4028-6bfb-43ca-ae0c-2e71ef08a773
      "Tobbe"   :f320b482-0544-45b6-a262-541ec6976359
+     "Mita"    :75a6c486-eac9-4c1e-a4a8-8b9f37a3e52b
+     "Stefan"  :e9c42849-4080-4d32-8292-55cd0af25b8b
+     "Carl"    :bea04582-920c-47d2-969b-a06a7d29bbc3
+     "Annika"  :1a977747-afe5-4e60-8e89-6b12e777b1b2
      }
     )
   (def pn (get participants participantName))

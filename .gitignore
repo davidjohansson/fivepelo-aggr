@@ -11,3 +11,6 @@ pom.xml.asc
 /.prepl-port
 .idea
 fivepelo-aggr.iml
+**/token.json
+**/credentials.json
+**/node_modules
