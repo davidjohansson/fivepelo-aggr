@@ -65,7 +65,7 @@
               (def date (dateFromDayNumber startDate (+ (* week 7) dayCount)))
               (def participant (:name entry))
               (def partId (participantId participant))
-              (assoc {} :id (idFromEntry date partId) :participantId partId :type "activity" :name participant :date date :activity (helpers/jsonClearString activity))
+              (assoc {} :id (idFromEntry date partId) :participantId partId :type "activity" :team 1 :name participant :date date :activity (helpers/jsonClearString activity))
               )
 
             (map-indexed createEvent (padWithEmptyDays activities))

@@ -1,5 +1,11 @@
 # fivepelo-aggr
 Bygger en eventström av träningsaktiviteter utifrån ett google spreadsheet
+Från kommandoraden:
+```shell
+./scripts/eventstream/eventstreamfromsheet.sh ./scripts/sheets/output/period1.json David | jq  '.[] | {date: .date, activity: .activity}'
+```
+
+Första argumentet är sheet-fil, nedladdad med scripten i sheets-mappen. Andra argumentet är en ren filterparameter, för den person man vill se, den är optional.
 
 ## Sheets
 ### Aggregera data från Google sheets
@@ -86,8 +92,7 @@ Genererar data från ett träningsark på formatet
         ...
 ```
 
-Varje lista under `training` motsvarar en veckas all 7 träningstillfällen. Om man inte fyllt i ngt för en viss dag BORDE det stå `""` för den dagen, men osäkert.
-(FIXAT)
+Varje lista under `training` motsvarar en veckas all 7 träningstillfällen. 
 
 Hämtat från det här exemplet:
 https://developers.google.com/sheets/api/quickstart/nodejs
@@ -109,6 +114,8 @@ I så fall slänger man token.js och kör scriptet igen.
 Man måste skapa `credentials.json`, följ länken kring "Create credentials" på sidan ovan.
 
 ## Eventstream
+
+## State
 Köra:
 
 I lein:
@@ -119,12 +126,6 @@ user=> (require '[fivepelo-aggr.stateFromEventStream :as sfe])
 user=> (use 'fivepelo-aggr.eventStreamFromSheet :reload)
 user=> ((comp h/pprnt  sfe/groupByWeekAndPerson  extractTrainingEntriesFromSheetV2) (h/testDataGs))
 ```
-
-Från kommandoraden:
-```shell
-./scripts/eventstreamfromsheet.sh raw-from-gs.json David | jq '.[] | {date: .date, activity: .activity}'
-```
-## State
 
 ## TODO:
 1. ~~Bryta upp olika delar i namespaces~~ 
