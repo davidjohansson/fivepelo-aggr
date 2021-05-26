@@ -114,6 +114,11 @@ I så fall slänger man token.js och kör scriptet igen.
 Man måste skapa `credentials.json`, följ länken kring "Create credentials" på sidan ovan.
 
 ## Eventstream
+### database
+Här finns nodescript för att skapa och populera databas med data.
+Man drar igång en lokal DynamoDB mha `docker-compose up`, sedan kan man accessa den via scripten eller från kommandline:
+
+`aws dynamodb list-tables --endpoint-url http://localhost:8000 `
 
 ## State
 Köra:
