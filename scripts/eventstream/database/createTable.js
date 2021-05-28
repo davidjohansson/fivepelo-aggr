@@ -1,20 +1,20 @@
 var AWS = require("aws-sdk");
 
 AWS.config.update({
-  region: "local",
-  endpoint: "http://localhost:8000"
+  region: "eu-north-1",
+  // endpoint: "http://localhost:8000"
 });
 
 var dynamodb = new AWS.DynamoDB();
 
 var params = {
-  TableName : "Trainings",
+  TableName : "Trainings2",
   KeySchema: [
-    { AttributeName: "id", KeyType: "HASH"},  //Partition key
+    { AttributeName: "team", KeyType: "HASH"},  //Partition key
     { AttributeName: "date", KeyType: "RANGE" }  //Sort key
   ],
   AttributeDefinitions: [
-    { AttributeName: "id", AttributeType: "S" },
+    { AttributeName: "team", AttributeType: "N" },
     { AttributeName: "date", AttributeType: "S" }
   ],
   ProvisionedThroughput: {

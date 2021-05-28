@@ -8,7 +8,7 @@
 
 (defn dateFromDayNumber
   [date dayNumber]
-  (jt/format "yyyy-MM-dd" (jt/plus (helpers/parseDate date) (jt/days dayNumber)))
+  (jt/plus (helpers/parseDate date) (jt/days dayNumber))
   )
 
 (defn padWithEmptyDays
@@ -63,9 +63,11 @@
             (defn createEvent
               [dayCount activity]
               (def date (dateFromDayNumber startDate (+ (* week 7) dayCount)))
+              (def dateString ( jt/format "yyyy-MM-dd" date ))
+              (def epoch (jt/to-millis-from-epoch (jt/instant date)))
               (def participant (:name entry))
               (def partId (participantId participant))
-              (assoc {} :id (idFromEntry date partId) :participantId partId :type "activity" :team 1 :name participant :date date :activity (helpers/jsonClearString activity))
+              (assoc {} :id (idFromEntry dateString partId) :participantId partId :type "activity" :team 1 :name participant :date dateString :epoch epoch :activity (helpers/jsonClearString activity))
               )
 
             (map-indexed createEvent (padWithEmptyDays activities))

@@ -1,0 +1,1591 @@
+{
+    "Items": [
+        {
+            "date": {
+                "S": "2016-07-25"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-07-25"
+                    },
+                    "activity": {
+                        "S": "30 min löp"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160725_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-07-26"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-07-26"
+                    },
+                    "activity": {
+                        "S": "90 prom 8 tabata"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160726_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-07-27"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-07-27"
+                    },
+                    "activity": {
+                        "S": "70 min cykel"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160727_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-07-28"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-07-28"
+                    },
+                    "activity": {
+                        "S": "Tabata armh"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160728_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-07-30"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-07-30"
+                    },
+                    "activity": {
+                        "S": "tabata situps"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160730_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-07-31"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-07-31"
+                    },
+                    "activity": {
+                        "S": "40 min löp"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160731_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-01"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-08-01"
+                    },
+                    "activity": {
+                        "S": "60 prom"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160801_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-02"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "66f32016-e302-411b-b9ce-080e0166d75b"
+                    },
+                    "date": {
+                        "S": "2016-08-02"
+                    },
+                    "activity": {
+                        "S": "PT 60 min fokus ben, cykla 30 min"
+                    },
+                    "name": {
+                        "S": "Lotta"
+                    },
+                    "id": {
+                        "S": "20160802_66f32016-e302-411b-b9ce-080e0166d75b"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-03"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-03"
+                    },
+                    "activity": {
+                        "S": "Styrketr, tabata rodd"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160803_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-04"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-04"
+                    },
+                    "activity": {
+                        "S": "70 min cykel"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160804_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-05"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-05"
+                    },
+                    "activity": {
+                        "S": "styrketr, cykel"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160805_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-06"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-06"
+                    },
+                    "activity": {
+                        "S": "tabata pullups"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160806_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-07"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-07"
+                    },
+                    "activity": {
+                        "S": "styrketr, kettlebell"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160807_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-08"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-08"
+                    },
+                    "activity": {
+                        "S": "tabata lekland"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160808_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-09"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-09"
+                    },
+                    "activity": {
+                        "S": "Styrketr kettlebell"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160809_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-10"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-10"
+                    },
+                    "activity": {
+                        "S": "Styrketr kettlebell"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160810_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-11"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "date": {
+                        "S": "2016-08-11"
+                    },
+                    "activity": {
+                        "S": "Tabata med Lill-p"
+                    },
+                    "name": {
+                        "S": "Tobbe"
+                    },
+                    "id": {
+                        "S": "20160811_f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-12"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "date": {
+                        "S": "2016-08-12"
+                    },
+                    "activity": {
+                        "S": "xxx"
+                    },
+                    "name": {
+                        "S": "Tobbe"
+                    },
+                    "id": {
+                        "S": "20160812_f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-13"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-13"
+                    },
+                    "activity": {
+                        "S": "Styrketr"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160813_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-14"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-14"
+                    },
+                    "activity": {
+                        "S": "35 min löp"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160814_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-15"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "a0392991-046b-40f0-8ce5-595c761fdff6"
+                    },
+                    "date": {
+                        "S": "2016-08-15"
+                    },
+                    "activity": {
+                        "S": "Tabata 8, löp 30 min"
+                    },
+                    "name": {
+                        "S": "Peter"
+                    },
+                    "id": {
+                        "S": "20160815_a0392991-046b-40f0-8ce5-595c761fdff6"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-16"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "date": {
+                        "S": "2016-08-16"
+                    },
+                    "activity": {
+                        "S": "Lätt styrka"
+                    },
+                    "name": {
+                        "S": "Tobbe"
+                    },
+                    "id": {
+                        "S": "20160816_f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-17"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-08-17"
+                    },
+                    "activity": {
+                        "S": "3 h prom 30 min yoga"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160817_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-18"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-08-18"
+                    },
+                    "activity": {
+                        "S": "Core m Akka "
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160818_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-19"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-08-19"
+                    },
+                    "activity": {
+                        "S": "60 prom"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160819_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-20"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-08-20"
+                    },
+                    "activity": {
+                        "S": "60 prom"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160820_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-21"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-08-21"
+                    },
+                    "activity": {
+                        "S": "60 prom 15 styrka"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160821_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-22"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "date": {
+                        "S": "2016-08-22"
+                    },
+                    "activity": {
+                        "S": "Cykling"
+                    },
+                    "name": {
+                        "S": "Tobbe"
+                    },
+                    "id": {
+                        "S": "20160822_f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-23"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-08-23"
+                    },
+                    "activity": {
+                        "S": "JH kvart + 5 k jogg"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160823_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-24"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-24"
+                    },
+                    "activity": {
+                        "S": "Löpning 40 min"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160824_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-25"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "date": {
+                        "S": "2016-08-25"
+                    },
+                    "activity": {
+                        "S": "Rodd"
+                    },
+                    "name": {
+                        "S": "Tobbe"
+                    },
+                    "id": {
+                        "S": "20160825_f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-26"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "66f32016-e302-411b-b9ce-080e0166d75b"
+                    },
+                    "date": {
+                        "S": "2016-08-26"
+                    },
+                    "activity": {
+                        "S": "davids tabata, styrka plus löpning"
+                    },
+                    "name": {
+                        "S": "Lotta"
+                    },
+                    "id": {
+                        "S": "20160826_66f32016-e302-411b-b9ce-080e0166d75b"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-27"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-08-27"
+                    },
+                    "activity": {
+                        "S": "Styrkekvart"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160827_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-28"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-28"
+                    },
+                    "activity": {
+                        "S": "Styrketräning"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160828_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-29"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-29"
+                    },
+                    "activity": {
+                        "S": "Löpning 50 min"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160829_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-30"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-08-30"
+                    },
+                    "activity": {
+                        "S": "40 jogg"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160830_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-08-31"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-08-31"
+                    },
+                    "activity": {
+                        "S": "Styrketräning kbell"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160831_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-09-01"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-09-01"
+                    },
+                    "activity": {
+                        "S": "40 jogg 15 styrka"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160901_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-09-02"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-09-02"
+                    },
+                    "activity": {
+                        "S": "Styrketräning kbell"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160902_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-09-03"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-09-03"
+                    },
+                    "activity": {
+                        "S": "40 jogg 60 armh"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160903_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-09-04"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-09-04"
+                    },
+                    "activity": {
+                        "S": "Veckotest"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160904_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-09-05"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-09-05"
+                    },
+                    "activity": {
+                        "S": "Löpning 40 Rocklunda yea"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160905_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-09-06"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-09-06"
+                    },
+                    "activity": {
+                        "S": "Styrketrän kbell"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160906_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-09-07"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "date": {
+                        "S": "2016-09-07"
+                    },
+                    "activity": {
+                        "S": "Långpromenad"
+                    },
+                    "name": {
+                        "S": "Tobbe"
+                    },
+                    "id": {
+                        "S": "20160907_f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-09-08"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-09-08"
+                    },
+                    "activity": {
+                        "S": "Löpn 40 min Marek"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160908_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-09-09"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "date": {
+                        "S": "2016-09-09"
+                    },
+                    "activity": {
+                        "S": "Styrketrän kbell"
+                    },
+                    "name": {
+                        "S": "David"
+                    },
+                    "id": {
+                        "S": "20160909_d38b9d8f-c6c8-4952-acda-ce292c670ff8"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-09-10"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "date": {
+                        "S": "2016-09-10"
+                    },
+                    "activity": {
+                        "S": "paulokvart"
+                    },
+                    "name": {
+                        "S": "Malin"
+                    },
+                    "id": {
+                        "S": "20160910_1c861f59-647c-4543-b878-869e085ae65e"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        },
+        {
+            "date": {
+                "S": "2016-09-11"
+            },
+            "payload": {
+                "M": {
+                    "participantId": {
+                        "S": "f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "date": {
+                        "S": "2016-09-11"
+                    },
+                    "activity": {
+                        "S": "Bollsport"
+                    },
+                    "name": {
+                        "S": "Tobbe"
+                    },
+                    "id": {
+                        "S": "20160911_f320b482-0544-45b6-a262-541ec6976359"
+                    },
+                    "team": {
+                        "N": "1"
+                    },
+                    "type": {
+                        "S": "activity"
+                    }
+                }
+            },
+            "team": {
+                "N": "1"
+            }
+        }
+    ],
+    "Count": 48,
+    "ScannedCount": 48,
+    "ConsumedCapacity": null
+}
