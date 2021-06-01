@@ -8,15 +8,37 @@ AWS.config.update({
 var dynamodb = new AWS.DynamoDB();
 
 var params = {
-  TableName : "Trainings2",
+  TableName : "Trainings",
   KeySchema: [
-    { AttributeName: "team", KeyType: "HASH"},  //Partition key
+    { AttributeName: "participantId", KeyType: "HASH"},  //Partition key
     { AttributeName: "date", KeyType: "RANGE" }  //Sort key
   ],
   AttributeDefinitions: [
+    { AttributeName: "participantId", AttributeType: "S" },
     { AttributeName: "team", AttributeType: "N" },
     { AttributeName: "date", AttributeType: "S" }
   ],
+
+  GlobalSecondaryIndexes: [{
+    IndexName: "DateIndex",
+    KeySchema: [
+      {
+        AttributeName: "team",
+        KeyType: "HASH"
+      },
+      {
+        AttributeName: "date",
+        KeyType: "RANGE"
+      }
+    ],
+    Projection: {
+      ProjectionType: "ALL"
+    },
+    ProvisionedThroughput: {
+      ReadCapacityUnits: 1,
+      WriteCapacityUnits: 1
+    }
+  }],
   ProvisionedThroughput: {
     ReadCapacityUnits: 10,
     WriteCapacityUnits: 10

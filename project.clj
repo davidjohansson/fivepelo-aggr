@@ -7,6 +7,7 @@
                  [org.clojure/data.json "0.2.6"]
                  [uswitch/lambada "0.1.2"]
                  [clojure.java-time "0.3.2"]
+                 [clj-time "0.15.2"]
                  [cheshire "5.10.0"]]
   :uberjar-name "fivepelo-aggr.jar"
   :main fivepelo-aggr.eventStreamFromSheet

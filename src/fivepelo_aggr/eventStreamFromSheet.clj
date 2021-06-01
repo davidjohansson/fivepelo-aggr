@@ -46,6 +46,11 @@
      "Stefan"  :e9c42849-4080-4d32-8292-55cd0af25b8b
      "Carl"    :bea04582-920c-47d2-969b-a06a7d29bbc3
      "Annika"  :1a977747-afe5-4e60-8e89-6b12e777b1b2
+     "Ragnar"  :356dcb9c-26a5-4c57-aae5-f476f1837541
+     "Joanne"  :eeb80778-9130-4824-bd2e-a5d647233b8c
+     "Emily"   :a9ab5f00-3a31-4516-aed0-6a79624c4180
+     "Hannu"   :f48aebb6-5330-4d10-a827-860983ff90d5
+     "Elina"   :56641109-123b-405c-8d3f-b2e1a2533ff3
      }
     )
   (def pn (get participants participantName))
@@ -63,11 +68,11 @@
             (defn createEvent
               [dayCount activity]
               (def date (dateFromDayNumber startDate (+ (* week 7) dayCount)))
-              (def dateString ( jt/format "yyyy-MM-dd" date ))
-              (def epoch (jt/to-millis-from-epoch (jt/instant date)))
+              (def dateString (jt/format "yyyy-MM-dd" date))
+              (def epoch (helpers/epoch dateString))
               (def participant (:name entry))
               (def partId (participantId participant))
-              (assoc {} :id (idFromEntry dateString partId) :participantId partId :type "activity" :team 1 :name participant :date dateString :epoch epoch :activity (helpers/jsonClearString activity))
+              (assoc {} :id (idFromEntry dateString partId) :participantId partId :type "activity" :team 1 :name participant :date dateString :dateepoch epoch :activity (helpers/jsonClearString activity))
               )
 
             (map-indexed createEvent (padWithEmptyDays activities))

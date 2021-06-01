@@ -7,5 +7,5 @@ while read p; do
   echo "Storing period $period to $path"
   node index.js $fileId > $path
   echo 'Sleeping 10 to spare quota...'
-  sleep 5
-done <./docs.txt
+  sleep 20
+done <./docs_alla.txt

@@ -6,6 +6,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-07-26",
+    "dateepoch": 1469491200000,
     "activity": "60 PT plus cykling 40"
   },
   {
@@ -15,6 +16,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-07-27",
+    "dateepoch": 1469577600000,
     "activity": "trail cykling 60"
   },
   {
@@ -24,6 +26,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-07-28",
+    "dateepoch": 1469664000000,
     "activity": "trail cykling 50"
   },
   {
@@ -33,6 +36,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-07-30",
+    "dateepoch": 1469836800000,
     "activity": "bakislöpning 30, cykling 30 "
   },
   {
@@ -42,6 +46,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-07-31",
+    "dateepoch": 1469923200000,
     "activity": "vattenland och promenad 30"
   },
   {
@@ -51,6 +56,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-02",
+    "dateepoch": 1470096000000,
     "activity": "PT 60 min fokus ben, cykla 30 min"
   },
   {
@@ -60,6 +66,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-03",
+    "dateepoch": 1470182400000,
     "activity": "cykling 30 min"
   },
   {
@@ -69,6 +76,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-05",
+    "dateepoch": 1470355200000,
     "activity": "cykling 1h10min trail"
   },
   {
@@ -78,6 +86,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-06",
+    "dateepoch": 1470441600000,
     "activity": "Löpning 50 min"
   },
   {
@@ -87,6 +96,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-07",
+    "dateepoch": 1470528000000,
     "activity": "kort styrka typ mini-tabata"
   },
   {
@@ -96,6 +106,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-08",
+    "dateepoch": 1470614400000,
     "activity": "Löpning hansa style längs ringmuren i Visby, 50 situps"
   },
   {
@@ -105,6 +116,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-12",
+    "dateepoch": 1470960000000,
     "activity": "Sommargenomgång PT"
   },
   {
@@ -114,6 +126,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-16",
+    "dateepoch": 1471305600000,
     "activity": "promenad 30 min plus vattenland "
   },
   {
@@ -123,6 +136,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-17",
+    "dateepoch": 1471392000000,
     "activity": "Vattengympa på lyxhotell Mallis "
   },
   {
@@ -132,6 +146,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-18",
+    "dateepoch": 1471478400000,
     "activity": "Grottvandring"
   },
   {
@@ -141,6 +156,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-22",
+    "dateepoch": 1471824000000,
     "activity": "Trail 4 km"
   },
   {
@@ -150,6 +166,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-25",
+    "dateepoch": 1472083200000,
     "activity": "powerwalk 45 min+styrka"
   },
   {
@@ -159,6 +176,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-26",
+    "dateepoch": 1472169600000,
     "activity": "davids tabata, styrka plus löpning"
   },
   {
@@ -168,6 +186,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-27",
+    "dateepoch": 1472256000000,
     "activity": "MTB"
   },
   {
@@ -177,6 +196,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-28",
+    "dateepoch": 1472342400000,
     "activity": "MTB"
   },
   {
@@ -186,6 +206,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-29",
+    "dateepoch": 1472428800000,
     "activity": "löpning 4 km"
   },
   {
@@ -195,6 +216,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-08-30",
+    "dateepoch": 1472515200000,
     "activity": "cykling 1h"
   },
   {
@@ -204,6 +226,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-09-01",
+    "dateepoch": 1472688000000,
     "activity": "löpning inkl löpstyrka landet "
   },
   {
@@ -213,6 +236,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-09-02",
+    "dateepoch": 1472774400000,
     "activity": "Löpning"
   },
   {
@@ -222,6 +246,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-09-03",
+    "dateepoch": 1472860800000,
     "activity": "traillöpning stockby"
   },
   {
@@ -231,6 +256,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-09-05",
+    "dateepoch": 1473033600000,
     "activity": "Fjällvandring"
   },
   {
@@ -240,6 +266,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-09-06",
+    "dateepoch": 1473120000000,
     "activity": "fjällvandring + MTB"
   },
   {
@@ -249,6 +276,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-09-07",
+    "dateepoch": 1473206400000,
     "activity": "fjällvandring + off trail tävling"
   },
   {
@@ -258,6 +286,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-09-08",
+    "dateepoch": 1473292800000,
     "activity": "fjällvandring "
   },
   {
@@ -267,6 +296,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-09-09",
+    "dateepoch": 1473379200000,
     "activity": "Kajak"
   },
   {
@@ -276,6 +306,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-09-10",
+    "dateepoch": 1473465600000,
     "activity": "fjällvandring"
   },
   {
@@ -285,6 +316,7 @@
     "team": 1,
     "name": "Lotta",
     "date": "2016-09-11",
+    "dateepoch": 1473552000000,
     "activity": "fjällvandring"
   },
   {
@@ -294,6 +326,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-07-25",
+    "dateepoch": 1469404800000,
     "activity": "15 mc, 8 tabata"
   },
   {
@@ -303,6 +336,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-07-26",
+    "dateepoch": 1469491200000,
     "activity": "45 prom, 8 tabata"
   },
   {
@@ -312,6 +346,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-07-27",
+    "dateepoch": 1469577600000,
     "activity": "Löp t jobbet "
   },
   {
@@ -321,6 +356,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-07-28",
+    "dateepoch": 1469664000000,
     "activity": "40 m löp"
   },
   {
@@ -330,6 +366,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-07-30",
+    "dateepoch": 1469836800000,
     "activity": "30 mc"
   },
   {
@@ -339,6 +376,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-07-31",
+    "dateepoch": 1469923200000,
     "activity": "50 löp inkl löpskoln. 8 tabata"
   },
   {
@@ -348,6 +386,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-01",
+    "dateepoch": 1470009600000,
     "activity": "Löp t o f jobbet"
   },
   {
@@ -357,6 +396,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-03",
+    "dateepoch": 1470182400000,
     "activity": " Löp t jobbet & squash "
   },
   {
@@ -366,6 +406,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-05",
+    "dateepoch": 1470355200000,
     "activity": "Löp t Ww (25 m) + 8 tabata"
   },
   {
@@ -375,6 +416,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-06",
+    "dateepoch": 1470441600000,
     "activity": "Löp 7 km m Lotta"
   },
   {
@@ -384,6 +426,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-07",
+    "dateepoch": 1470528000000,
     "activity": "Fornstigen"
   },
   {
@@ -393,6 +436,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-08",
+    "dateepoch": 1470614400000,
     "activity": "Styrka 15 min"
   },
   {
@@ -402,6 +446,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-09",
+    "dateepoch": 1470700800000,
     "activity": " Löp t o f jobbet"
   },
   {
@@ -411,6 +456,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-11",
+    "dateepoch": 1470873600000,
     "activity": "8 tabata m Tobbe"
   },
   {
@@ -420,6 +466,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-13",
+    "dateepoch": 1471046400000,
     "activity": "Sim 35 min"
   },
   {
@@ -429,6 +476,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-14",
+    "dateepoch": 1471132800000,
     "activity": "Löp 14 km"
   },
   {
@@ -438,6 +486,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-15",
+    "dateepoch": 1471219200000,
     "activity": "Tabata 8, löp 30 min"
   },
   {
@@ -447,6 +496,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-16",
+    "dateepoch": 1471305600000,
     "activity": "Tobbes kvart"
   },
   {
@@ -456,6 +506,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-17",
+    "dateepoch": 1471392000000,
     "activity": "Löp 11,5 km kyrkstigen "
   },
   {
@@ -465,6 +516,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-18",
+    "dateepoch": 1471478400000,
     "activity": "Akka o Antons coreträning"
   },
   {
@@ -474,6 +526,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-19",
+    "dateepoch": 1471564800000,
     "activity": "8 km löp m Anton"
   },
   {
@@ -483,6 +536,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-20",
+    "dateepoch": 1471651200000,
     "activity": "7,5 löp Norra Vi-flåset"
   },
   {
@@ -492,6 +546,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-21",
+    "dateepoch": 1471737600000,
     "activity": "8,3 km löp"
   },
   {
@@ -501,6 +556,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-22",
+    "dateepoch": 1471824000000,
     "activity": "Johans kvart"
   },
   {
@@ -510,6 +566,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-23",
+    "dateepoch": 1471910400000,
     "activity": "14,3 km"
   },
   {
@@ -519,6 +576,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-24",
+    "dateepoch": 1471996800000,
     "activity": "Malins kvart"
   },
   {
@@ -528,6 +586,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-27",
+    "dateepoch": 1472256000000,
     "activity": "Cirkelträning m Lottas gymband"
   },
   {
@@ -537,6 +596,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-28",
+    "dateepoch": 1472342400000,
     "activity": "9,5 km löpning "
   },
   {
@@ -546,6 +606,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-29",
+    "dateepoch": 1472428800000,
     "activity": "40 min rodd (varav en kvart hämta flytsaker i oväder)"
   },
   {
@@ -555,6 +616,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-30",
+    "dateepoch": 1472515200000,
     "activity": "18 km löp"
   },
   {
@@ -564,6 +626,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-08-31",
+    "dateepoch": 1472601600000,
     "activity": "7 km m Henrik"
   },
   {
@@ -573,6 +636,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-09-01",
+    "dateepoch": 1472688000000,
     "activity": "4,5 km o löpskola m Lotta"
   },
   {
@@ -582,6 +646,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-09-02",
+    "dateepoch": 1472774400000,
     "activity": "Simma 20 min o 7 km löp m Henrik E"
   },
   {
@@ -591,6 +656,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-09-03",
+    "dateepoch": 1472860800000,
     "activity": "4,5 km löp m Henrik E"
   },
   {
@@ -600,6 +666,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-09-04",
+    "dateepoch": 1472947200000,
     "activity": "Veckotest m Malin"
   },
   {
@@ -609,6 +676,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-09-06",
+    "dateepoch": 1473120000000,
     "activity": "9 km löp"
   },
   {
@@ -618,6 +686,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-09-08",
+    "dateepoch": 1473292800000,
     "activity": "8 km löp i Bol"
   },
   {
@@ -627,6 +696,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-09-09",
+    "dateepoch": 1473379200000,
     "activity": "8 km löp i Bol"
   },
   {
@@ -636,6 +706,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-09-10",
+    "dateepoch": 1473465600000,
     "activity": "Cirkelkvart m Malin"
   },
   {
@@ -645,6 +716,7 @@
     "team": 1,
     "name": "Peter",
     "date": "2016-09-11",
+    "dateepoch": 1473552000000,
     "activity": "Cirkelkvart m Malin"
   },
   {
@@ -654,6 +726,7 @@
     "team": 1,
     "name": "Johan",
     "date": "2016-09-11",
+    "dateepoch": 1473552000000,
     "activity": "Löpning 6,5 km"
   },
   {
@@ -663,6 +736,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-07-25",
+    "dateepoch": 1469404800000,
     "activity": "45 prom 8 tabata"
   },
   {
@@ -672,6 +746,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-07-26",
+    "dateepoch": 1469491200000,
     "activity": "90 prom 8 tabata"
   },
   {
@@ -681,6 +756,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-07-27",
+    "dateepoch": 1469577600000,
     "activity": "8 tabata"
   },
   {
@@ -690,6 +766,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-07-28",
+    "dateepoch": 1469664000000,
     "activity": "75 energy yoga"
   },
   {
@@ -699,6 +776,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-07-31",
+    "dateepoch": 1469923200000,
     "activity": "60 prom 8 tabata"
   },
   {
@@ -708,6 +786,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-01",
+    "dateepoch": 1470009600000,
     "activity": "60 prom"
   },
   {
@@ -717,6 +796,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-03",
+    "dateepoch": 1470182400000,
     "activity": "30 prom 8 tabata"
   },
   {
@@ -726,6 +806,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-06",
+    "dateepoch": 1470441600000,
     "activity": "5 k jogg + stretchpass"
   },
   {
@@ -735,6 +816,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-16",
+    "dateepoch": 1471305600000,
     "activity": "60 prom 15 styrka"
   },
   {
@@ -744,6 +826,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-17",
+    "dateepoch": 1471392000000,
     "activity": "3 h prom 30 min yoga"
   },
   {
@@ -753,6 +836,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-18",
+    "dateepoch": 1471478400000,
     "activity": "Core m Akka "
   },
   {
@@ -762,6 +846,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-19",
+    "dateepoch": 1471564800000,
     "activity": "60 prom"
   },
   {
@@ -771,6 +856,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-20",
+    "dateepoch": 1471651200000,
     "activity": "60 prom"
   },
   {
@@ -780,6 +866,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-21",
+    "dateepoch": 1471737600000,
     "activity": "60 prom 15 styrka"
   },
   {
@@ -789,6 +876,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-23",
+    "dateepoch": 1471910400000,
     "activity": "JH kvart + 5 k jogg"
   },
   {
@@ -798,6 +886,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-25",
+    "dateepoch": 1472083200000,
     "activity": "malins pass "
   },
   {
@@ -807,6 +896,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-26",
+    "dateepoch": 1472169600000,
     "activity": "11 km promenad"
   },
   {
@@ -816,6 +906,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-27",
+    "dateepoch": 1472256000000,
     "activity": "Styrkekvart"
   },
   {
@@ -825,6 +916,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-28",
+    "dateepoch": 1472342400000,
     "activity": "40 min jogg"
   },
   {
@@ -834,6 +926,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-29",
+    "dateepoch": 1472428800000,
     "activity": "30 yoga 15 styrka"
   },
   {
@@ -843,6 +936,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-08-30",
+    "dateepoch": 1472515200000,
     "activity": "40 jogg"
   },
   {
@@ -852,6 +946,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-09-01",
+    "dateepoch": 1472688000000,
     "activity": "40 jogg 15 styrka"
   },
   {
@@ -861,6 +956,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-09-03",
+    "dateepoch": 1472860800000,
     "activity": "40 jogg 60 armh"
   },
   {
@@ -870,6 +966,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-09-04",
+    "dateepoch": 1472947200000,
     "activity": "Veckotest"
   },
   {
@@ -879,6 +976,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-09-05",
+    "dateepoch": 1473033600000,
     "activity": "90 prom"
   },
   {
@@ -888,6 +986,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-09-08",
+    "dateepoch": 1473292800000,
     "activity": "40 yoga"
   },
   {
@@ -897,6 +996,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-09-09",
+    "dateepoch": 1473379200000,
     "activity": "40 jogg"
   },
   {
@@ -906,6 +1006,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-09-10",
+    "dateepoch": 1473465600000,
     "activity": "paulokvart"
   },
   {
@@ -915,6 +1016,7 @@
     "team": 1,
     "name": "Malin",
     "date": "2016-09-11",
+    "dateepoch": 1473552000000,
     "activity": "paulokvart"
   },
   {
@@ -924,6 +1026,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-08-11",
+    "dateepoch": 1470873600000,
     "activity": "Tabata med Lill-p"
   },
   {
@@ -933,6 +1036,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-08-12",
+    "dateepoch": 1470960000000,
     "activity": "xxx"
   },
   {
@@ -942,6 +1046,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-08-13",
+    "dateepoch": 1471046400000,
     "activity": "MTB"
   },
   {
@@ -951,6 +1056,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-08-14",
+    "dateepoch": 1471132800000,
     "activity": "MTB plus styrka"
   },
   {
@@ -960,6 +1066,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-08-16",
+    "dateepoch": 1471305600000,
     "activity": "Lätt styrka"
   },
   {
@@ -969,6 +1076,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-08-22",
+    "dateepoch": 1471824000000,
     "activity": "Cykling"
   },
   {
@@ -978,6 +1086,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-08-24",
+    "dateepoch": 1471996800000,
     "activity": "MTB + styrka"
   },
   {
@@ -987,6 +1096,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-08-25",
+    "dateepoch": 1472083200000,
     "activity": "Rodd"
   },
   {
@@ -996,6 +1106,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-09-05",
+    "dateepoch": 1473033600000,
     "activity": "Stolpjakt"
   },
   {
@@ -1005,6 +1116,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-09-07",
+    "dateepoch": 1473206400000,
     "activity": "Långpromenad"
   },
   {
@@ -1014,6 +1126,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-09-09",
+    "dateepoch": 1473379200000,
     "activity": "Cykling "
   },
   {
@@ -1023,6 +1136,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-09-10",
+    "dateepoch": 1473465600000,
     "activity": "Löpning + styrka"
   },
   {
@@ -1032,6 +1146,7 @@
     "team": 1,
     "name": "Tobbe",
     "date": "2016-09-11",
+    "dateepoch": 1473552000000,
     "activity": "Bollsport"
   },
   {
@@ -1041,6 +1156,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-07-25",
+    "dateepoch": 1469404800000,
     "activity": "30 min löp"
   },
   {
@@ -1050,6 +1166,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-07-27",
+    "dateepoch": 1469577600000,
     "activity": "70 min cykel"
   },
   {
@@ -1059,6 +1176,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-07-28",
+    "dateepoch": 1469664000000,
     "activity": "Tabata armh"
   },
   {
@@ -1068,6 +1186,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-07-30",
+    "dateepoch": 1469836800000,
     "activity": "tabata situps"
   },
   {
@@ -1077,6 +1196,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-07-31",
+    "dateepoch": 1469923200000,
     "activity": "40 min löp"
   },
   {
@@ -1086,6 +1206,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-03",
+    "dateepoch": 1470182400000,
     "activity": "Styrketr, tabata rodd"
   },
   {
@@ -1095,6 +1216,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-04",
+    "dateepoch": 1470268800000,
     "activity": "70 min cykel"
   },
   {
@@ -1104,6 +1226,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-05",
+    "dateepoch": 1470355200000,
     "activity": "styrketr, cykel"
   },
   {
@@ -1113,6 +1236,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-06",
+    "dateepoch": 1470441600000,
     "activity": "tabata pullups"
   },
   {
@@ -1122,6 +1246,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-07",
+    "dateepoch": 1470528000000,
     "activity": "styrketr, kettlebell"
   },
   {
@@ -1131,6 +1256,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-08",
+    "dateepoch": 1470614400000,
     "activity": "tabata lekland"
   },
   {
@@ -1140,6 +1266,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-09",
+    "dateepoch": 1470700800000,
     "activity": "Styrketr kettlebell"
   },
   {
@@ -1149,6 +1276,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-10",
+    "dateepoch": 1470787200000,
     "activity": "Styrketr kettlebell"
   },
   {
@@ -1158,6 +1286,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-13",
+    "dateepoch": 1471046400000,
     "activity": "Styrketr"
   },
   {
@@ -1167,6 +1296,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-14",
+    "dateepoch": 1471132800000,
     "activity": "35 min löp"
   },
   {
@@ -1176,6 +1306,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-23",
+    "dateepoch": 1471910400000,
     "activity": "Styrketräning kbell"
   },
   {
@@ -1185,6 +1316,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-24",
+    "dateepoch": 1471996800000,
     "activity": "Löpning 40 min"
   },
   {
@@ -1194,6 +1326,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-28",
+    "dateepoch": 1472342400000,
     "activity": "Styrketräning"
   },
   {
@@ -1203,6 +1336,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-29",
+    "dateepoch": 1472428800000,
     "activity": "Löpning 50 min"
   },
   {
@@ -1212,6 +1346,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-08-31",
+    "dateepoch": 1472601600000,
     "activity": "Styrketräning kbell"
   },
   {
@@ -1221,6 +1356,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-09-01",
+    "dateepoch": 1472688000000,
     "activity": "Löpn 40 min"
   },
   {
@@ -1230,6 +1366,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-09-02",
+    "dateepoch": 1472774400000,
     "activity": "Styrketräning kbell"
   },
   {
@@ -1239,6 +1376,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-09-05",
+    "dateepoch": 1473033600000,
     "activity": "Löpning 40 Rocklunda yea"
   },
   {
@@ -1248,6 +1386,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-09-06",
+    "dateepoch": 1473120000000,
     "activity": "Styrketrän kbell"
   },
   {
@@ -1257,6 +1396,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-09-08",
+    "dateepoch": 1473292800000,
     "activity": "Löpn 40 min Marek"
   },
   {
@@ -1266,6 +1406,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-09-09",
+    "dateepoch": 1473379200000,
     "activity": "Styrketrän kbell"
   },
   {
@@ -1275,6 +1416,7 @@
     "team": 1,
     "name": "David",
     "date": "2016-09-11",
+    "dateepoch": 1473552000000,
     "activity": "Löpn 40 min"
   }
 ]

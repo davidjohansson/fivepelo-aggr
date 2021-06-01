@@ -1,0 +1,591 @@
+{
+  "startDate": "2021-01-04",
+  "trainingData": [
+    {
+      "name": "Peter",
+      "training": [
+        [
+          "Yoga 3 + knä-Arnold",
+          "Yoga 4 + jogg",
+          "Yoga 5",
+          "Yoga 6",
+          "",
+          "Tennis Yoga 8"
+        ],
+        [
+          "Yoga 10 + 30 mc",
+          "Yoga 11 + knä-Arnold ",
+          "",
+          "Längdskidor ",
+          "",
+          "Tennis + Yoga 14 + längdskidor",
+          "Längdskidor + Yoga 15"
+        ],
+        [
+          "Längdskidor",
+          "Längdskidor ",
+          "Yoga",
+          "",
+          "",
+          "Tennis + Skidåkning",
+          "Skidåkning"
+        ],
+        [
+          "Yoga + knärehab ",
+          "45 min mc",
+          "Yoga + mini-Arnold ",
+          "",
+          "Morgonjogg",
+          "Tennis + längdskidor ",
+          "Längdskidor"
+        ],
+        [
+          "Längdskidor ",
+          "Yoga-final",
+          "",
+          "60 min mc",
+          "Längdskidor (kl 6 m Johan)",
+          "Tennis",
+          "Alpint på Kungsberget"
+        ],
+        [
+          "50 min mc",
+          "Lunchskidor",
+          "",
+          "Rast-Arnold + kvällsyoga",
+          "",
+          "Skidor m Johan ",
+          "Tennis"
+        ],
+        [
+          "",
+          "",
+          "45 min mc",
+          "45 min mc",
+          "Skidor m Johan ",
+          "Tennis",
+          "Tennis"
+        ]
+      ]
+    },
+    {
+      "name": "Lotta",
+      "training": [
+        [
+          "Hajk Great Falls m Henrik 2h",
+          "Ford Mine Trail med Margareta 2,5h",
+          "Löpning Avenel Farm",
+          "Trail löp Great Falls",
+          "",
+          "Hajk med barnen ca 2h, Great Falls"
+        ],
+        [
+          "",
+          "",
+          "2h trail walk med Frallan skogen i Potomac",
+          "Tuff vandring 2h med Margareta off McArthur",
+          " Cabin John trail m Frallan",
+          "Hajk med barnen Ford Mine",
+          "Vandring med Phil och Becks längs Seven Locks"
+        ],
+        [
+          "",
+          "Tennis m Henke och Freddan+ Billy Goat Trail med Scanditanterna",
+          "Medellånga intervaller löpband",
+          "Crossfit",
+          "Jogging Walter whitman ca 30min",
+          "",
+          "Yoga m Adrienne&Benji (Heart and Body)"
+        ],
+        [
+          "Eget äventyr-vandring CO canal vid Pennyfield Lock",
+          "Crossfit",
+          "",
+          "Crossfit",
+          "Crossfit ",
+          "",
+          "Tennis + prova på Squash"
+        ],
+        [
+          "",
+          "Cabin John Trail m Henke",
+          "Crossfit ",
+          "Crossfit ",
+          "Crossfit",
+          "Shenandoah vandring med tjejgänget"
+        ],
+        [
+          "Crossfit",
+          "",
+          "OAI-Great Falls ToR med Margareta ",
+          "",
+          "Crossfit",
+          "35 min löpband framför Fox News",
+          "25 min löpband framför Netflix"
+        ],
+        [
+          "",
+          "60 min löpband på incl 7 men snabb GÅ",
+          "MTB premiär!",
+          "Löpband 25 min+styrka 5 övningar 3*10 ",
+          "",
+          "East Beach PW m Mobergs",
+          "Styrka hemmagym"
+        ]
+      ]
+    },
+    {
+      "name": "Malin",
+      "training": [
+        [
+          "Yoga ink huvudstående",
+          "Yoga + hs + pw",
+          "Yoga Breath dag 5 + hs ",
+          "Yoga burn + hs",
+          "Yoga sync + hs ",
+          "No fear y + 2m hs"
+        ],
+        [
+          "",
+          "Yoga flow + div + hs",
+          "Yoga + hs",
+          "Yoga + hs 3min",
+          "",
+          "Yogax2 +hs+längdskidor",
+          "Yoga+längdskidor"
+        ],
+        [
+          "Yoga explore+hs",
+          "Y center + hs",
+          "Y strength+hs",
+          "",
+          "Yoga+hs",
+          "Yoga+promenad m Johanna "
+        ],
+        [
+          "Yoga + styrka",
+          "Dubbelyoga ",
+          "",
+          "",
+          "Pw",
+          "Dubbelyoga+krispig pw",
+          "Längdskidor ☀️"
+        ],
+        [
+          "",
+          "Yogafinal 30 dagars",
+          "Yoga/styrka",
+          "",
+          "Pw",
+          "Deepen/flow",
+          "Kungsberget skidor"
+        ],
+        [
+          "",
+          "Låååång pw",
+          "",
+          "Yoga",
+          "",
+          "Längdskidor ",
+          "Yoga"
+        ],
+        [
+          "",
+          "",
+          "Pw",
+          "Yoga flow",
+          "Yoga core",
+          "Yoga shakti flow",
+          "Yoga deep hips "
+        ]
+      ]
+    },
+    {
+      "name": "Tobbe",
+      "training": [
+        [
+          "",
+          "Hemmastyrka ",
+          "",
+          "Armisar ",
+          "Armisar ",
+          "Utegym",
+          "Snöskottning "
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Skridsko"
+        ],
+        [
+          "Skidor",
+          "",
+          "Skidor ",
+          "Skidor ",
+          "",
+          "Skidor ",
+          "Skidor "
+        ],
+        [
+          "",
+          "Skidor",
+          "",
+          "Hemmastyrka ",
+          "Skidor ",
+          "Skridskor ",
+          "Skidor "
+        ],
+        [
+          "200 armhäv",
+          "",
+          "Hemmagym ",
+          "",
+          "Armhävningar ",
+          "Skidor ",
+          "Skidor "
+        ],
+        [
+          "",
+          "Skidor",
+          "",
+          "",
+          "",
+          "Skidor (långt)",
+          "Skidor "
+        ],
+        [
+          "",
+          "Skidor",
+          "",
+          "Skidor ",
+          "Svett-promenad ",
+          "Skidor ",
+          "Skidor "
+        ]
+      ]
+    },
+    {
+      "name": "Eric",
+      "training": [
+        [
+          "Löpning med Claes ",
+          "bänkpress,rumänsk marklyft, knäböj,skivstångsrodd, triceps",
+          "",
+          "smalbänk,press, skivstångsrodd,good mornings,knäböj,",
+          "Löpning med Claes ",
+          "",
+          "Löpning med Claes "
+        ],
+        [
+          "Marklyft, knäböj, chins, ",
+          "",
+          "Skivstångsrodd, triceps, knäböj, smalbänk ",
+          "Löpning med Claes "
+        ],
+        [
+          "Löpning med Claes ",
+          "Skivstångsrodd, bänkpress, triceps, knäböj ",
+          "Marklyft, kettlebellswings, maghjul, chins",
+          "",
+          "Löpning ",
+          "",
+          "bänkpress,knäböj,rumänska marklyft, skivstångsrodd, triceps "
+        ],
+        [
+          "",
+          "Triceps, smalbänk, knäböj, good mornings, goblet squats",
+          "Bänk, Mark, chins, knäböj ",
+          "Kortlöpning",
+          "",
+          "Bänkpress, knäböj, rumänska marklyft, skivstångsrodd, triceps ",
+          "Löpning "
+        ],
+        [
+          "Knäböj, smalbänk, good mornings",
+          "",
+          "marklyft, chins, knästående utrullning, skivstångsrodd"
+        ],
+        [
+          "",
+          "Kettlebellswings, kettlebellpress",
+          "Bänkpress, knäböj, rumänska, skivstångsrodd "
+        ],
+        [
+          "Knäböj, triceps, good mornings, bänkpress ",
+          "Crosstrainer",
+          "Marklyft, crosstrainer ",
+          "",
+          "",
+          "",
+          "Rejäl pw x 2"
+        ]
+      ]
+    },
+    {
+      "name": "Sophia",
+      "training": [
+        [
+          "PT crossfit ",
+          "Vandring Lovön ",
+          "Gym armstyrka ",
+          "",
+          "Crossfit ",
+          "",
+          "Crossfit "
+        ],
+        [
+          "Crossfit ",
+          "Gym armstyrka ",
+          "PT crossfit + 5 km löp",
+          "Crossfit",
+          "Gym armstyrka "
+        ],
+        [
+          "Crossfit ",
+          "Crossfit ",
+          "PT crossfit ",
+          "Crossfit ",
+          "",
+          "",
+          "Crossfit"
+        ],
+        [
+          "Crossfit ",
+          "Gym styrka armar ",
+          "Crossfit ",
+          "PT crossfit ",
+          "Crossfit ",
+          "",
+          "Crossfit + längdskidor "
+        ],
+        [
+          "Crossfit ",
+          "",
+          "Crossfit + längdskidor ",
+          "",
+          "Crossfit ",
+          "Crossfit",
+          "Längdskidor "
+        ],
+        [
+          "Crossfit ",
+          "Crossfit ",
+          "PT crossfit ",
+          "Crossfit + längdskidor ",
+          "Gym styrka armar "
+        ],
+        [
+          "Crossfit ",
+          "Crossfit ",
+          "PT crossfit ",
+          "Längdskidor ",
+          "Crossfit "
+        ]
+      ]
+    },
+    {
+      "name": "Johanna",
+      "training": [
+        [
+          "Yoga breath dag 3 + överkropp + core",
+          "Pw + yoga dag 4",
+          "Yoga dag 5 + långpromenad",
+          "Yoga dag 6 + överkropp ",
+          "Yoga dag 7+ långpromenad",
+          "Yoga 8",
+          "Yoga 9"
+        ],
+        [
+          "Yoga 10 + happy sweat 3+core+ben",
+          "Yoga 11",
+          "yoga 12",
+          "7 km pw Ängsö",
+          "Yoga 13",
+          "Yoga 14 + kondition + överkropp",
+          "7 km pw Björnön"
+        ],
+        [
+          "",
+          "Yoga 15 + brutal abs",
+          "Yoga 16 + pw 45 min",
+          "Kondition + ben",
+          "",
+          "Långpromenad med Malin",
+          "Yoga 17 "
+        ],
+        [
+          "Yoga 18 + pw",
+          "Yoga 19 + pw + överkropp",
+          "Pw runt Lista ☀️",
+          "Yoga 20 + kondition + sixpack",
+          "",
+          "Pam full intense body + backträning (pulkaåkning 😅)"
+        ],
+        [
+          "Yoga 21 + lower abs",
+          "Yoga 22 + ben + överkropp",
+          "",
+          "Yoga 23",
+          "Pw Björnön 5 km ☀️",
+          "Yoga 24 + core",
+          "Spark-sparkning Björnön (jobbigare än det låter)"
+        ],
+        [
+          "Pam intense full body+kondition",
+          "",
+          "",
+          "Pw",
+          "Core+överkropp+kondition",
+          "Pw",
+          "Pw"
+        ],
+        [
+          "Pw+core+överkropp",
+          "Pw",
+          "Pw x 2",
+          "",
+          "",
+          "Pam hiit workout + överkropp",
+          "Långpromenad"
+        ]
+      ]
+    },
+    {
+      "name": "David",
+      "training": [
+        [
+          "Styrka",
+          "HIC, armh",
+          "Styrka",
+          "HIC, hopprep",
+          "Styrka",
+          "",
+          "Paralletter"
+        ],
+        [
+          "Styrka",
+          "Paralletter",
+          "Styrka",
+          "HIC, hopprep",
+          "Styrka",
+          "Skidor"
+        ],
+        [
+          "Springning Rocklunda MTB",
+          "",
+          "Styrka",
+          "HIC, gc",
+          "Styrka",
+          "Skidor med Peter, Tobbe o Jakob"
+        ],
+        [
+          "Backe + kettlebell Rocklunda",
+          "Styrka",
+          "",
+          "Styrka",
+          "Kettlebell + burpees",
+          "Styrka",
+          "Skidor"
+        ],
+        [
+          "Skidor",
+          "Kettlebell + burpees",
+          "Styrka",
+          "",
+          "Kettlebell + burpees",
+          "Styrka"
+        ],
+        [
+          "Styrka",
+          "",
+          "Kettlebell + burpees",
+          "",
+          "Styrka",
+          "Styrka",
+          "Löpning Rocklunda"
+        ],
+        [
+          "",
+          "",
+          "Styrka",
+          "Kettlebell + burpees",
+          "Styrka",
+          "Kettelbell + backe Rocklunda",
+          "Löpning Rocklunda"
+        ]
+      ]
+    },
+    {
+      "name": "Johan",
+      "training": [
+        [
+          "Löpning 9,5 km",
+          "Löpning 11 km",
+          "Löpning 5 km",
+          "Tennis demo stenhård 60 min",
+          "",
+          "Tennis",
+          "Löpning 5 km"
+        ],
+        [
+          "Pw 60 min",
+          "Löpning hem från Mekonomen 4 km",
+          "Pw 60 min",
+          "Längdskidor 3 km",
+          "Lunchtennis",
+          "Tennis + längdskidor 5 km",
+          "Längdskidor 5km"
+        ],
+        [
+          "Löpning till Direct Connection 5,8km + längdskidor 2,6 km",
+          "Längdåkning 5km",
+          "",
+          "",
+          "Löpning 5 km",
+          "Tennis",
+          "Pw 60 min"
+        ],
+        [
+          "Längdskidor 5km",
+          "Lunchtennis",
+          "Längdskidor 5 km",
+          "",
+          "Längdskidor 5 km",
+          "Tennis + längdskidor med olof o Joanna 2,5 km",
+          "Längdskidor 5,7 km"
+        ],
+        [
+          "Längdskidor 5,7 km",
+          "Morgonlängdskidor med Joanna i nysnö 35 min",
+          "",
+          "Lunchlängdskidor 5km",
+          "Morgonlängdskidor med Lillp 5,5km",
+          "Tennis + längdskidor 30 min med Olof",
+          "Längdskidor 7,5km"
+        ],
+        [
+          "Löpning 5km",
+          "Lunchlängdskidor 7km",
+          "Kvällslängdskidor 5km",
+          "",
+          "",
+          "Längdskidor 11km",
+          "Tennis"
+        ],
+        [
+          "",
+          "Längdskidor 5,5km",
+          "Tennis på arbetstid",
+          "Pw",
+          "Längdåkning 5,5km",
+          "Tennismorgon",
+          "Tennismorgon"
+        ]
+      ]
+    }
+  ]
+}

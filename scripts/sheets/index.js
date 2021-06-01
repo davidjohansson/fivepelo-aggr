@@ -89,7 +89,7 @@ function authorize(credentials, callback) {
 
       fetchSheetValuesPromise(auth, spreadsheetId, "Admin", "Admin!H1").then( sheetRes => {
         const startDate = sheetRes.data.values[0][0];
-        const allParticipantSheets = res.data.sheets?.map(sheet => sheet.properties?.title).filter(title => title != 'Ställning' && title != 'Admin' );
+        const allParticipantSheets = res.data.sheets?.map(sheet => sheet.properties?.title).filter(title => title != 'Ställning' && title != 'Admin' && !title.startsWith('Blad') );
 
         const listOfPromises = allParticipantSheets.map(title => fetchSheetValuesPromise(auth, spreadsheetId, title ))
       

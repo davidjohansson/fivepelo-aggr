@@ -3,11 +3,21 @@
   (:require
     [clojure.data.json :as json]
     [cheshire.core :refer :all]
-    [java-time :as jt]))
+    [java-time :as jt]
+    [clj-time.core :as t]
+    [clj-time.coerce :as c]
+    ))
 
 (defn parseDate
   [date]
   (jt/local-date "yyyy-MM-dd" date))
+
+
+(defn epoch
+  [date]
+  (clj-time.coerce/to-long date))
+
+
 
 ;Helpers
 (defn jsonToClj [json]

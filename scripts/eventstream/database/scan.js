@@ -1,4 +1,3 @@
-
 var AWS = require("aws-sdk");
 
 AWS.config.update({
@@ -9,7 +8,7 @@ AWS.config.update({
 var docClient = new AWS.DynamoDB.DocumentClient();
 
 var params = {
-  TableName: "Trainings2",
+  TableName: "Trainings",
   ProjectionExpression: "payload",
   FilterExpression: "#trainingdate between :startdate and :enddate",
   ExpressionAttributeValues: {
