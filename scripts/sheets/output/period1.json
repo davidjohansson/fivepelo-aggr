@@ -1,1 +1,361 @@
-{"startDate":"2016-07-25","trainingData":[{"name":"Lotta","training":[["","60 PT plus cykling 40","trail cykling 60","trail cykling 50","","bakislöpning 30, cykling 30 ","vattenland och promenad 30"],["","PT 60 min fokus ben, cykla 30 min","cykling 30 min","","cykling 1h10min trail","Löpning 50 min","kort styrka \"typ mini-tabata\""],["Löpning \"hansa style\" längs ringmuren i Visby, 50 situps","","","","Sommargenomgång PT"],["","promenad 30 min plus vattenland ","Vattengympa på lyxhotell Mallis ","Grottvandring"],["Trail 4 km","","","powerwalk 45 min+styrka","davids tabata, styrka plus löpning","MTB","MTB"],["löpning 4 km","cykling 1h","","löpning inkl löpstyrka landet ","Löpning","traillöpning stockby"],["Fjällvandring","fjällvandring + MTB","fjällvandring + off trail tävling","fjällvandring ","Kajak","fjällvandring","fjällvandring"]]},{"name":"Peter","training":[["15 mc, 8 tabata","45 prom, 8 tabata","Löp t jobbet ","40 m löp","","30 mc","50 löp inkl löpskoln. 8 tabata"],["Löp t o f jobbet",""," Löp t jobbet & squash ","","Löp t Ww (25 m) + 8 tabata","Löp 7 km m Lotta","Fornstigen"],["Styrka 15 min"," Löp t o f jobbet","","8 tabata m Tobbe","","Sim 35 min","Löp 14 km"],["Tabata 8, löp 30 min","Tobbes kvart","Löp 11,5 km kyrkstigen ","Akka o Antons coreträning","8 km löp m Anton","7,5 löp Norra Vi-flåset","8,3 km löp"],["Johans kvart","14,3 km","Malins kvart","","","Cirkelträning m Lottas gymband","9,5 km löpning "],["40 min rodd (varav en kvart hämta flytsaker i oväder)","18 km löp","7 km m Henrik","4,5 km o löpskola m Lotta","Simma 20 min o 7 km löp m Henrik E","4,5 km löp m Henrik E","Veckotest m Malin"],["","9 km löp","","8 km löp i Bol","8 km löp i Bol","Cirkelkvart m Malin","Cirkelkvart m Malin"]]},{"name":"Johan","training":[[],[],[],["","","","","","","Löpning 6,5 km"]]},{"name":"Henrik","training":[["1","1","1","","","1","1"],["","","1","1","","1","1"],["1","","1","1","1","","1"],["1","","1","1","","1","1"]]},{"name":"Malin","training":[["45 prom 8 tabata","90 prom 8 tabata","8 tabata","75 energy yoga","","","60 prom 8 tabata"],["60 prom","","30 prom 8 tabata","","","5 k jogg + stretchpass"],[],["","60 prom 15 styrka","3 h prom 30 min yoga","Core m Akka ","60 prom","60 prom","60 prom 15 styrka"],["","JH kvart + 5 k jogg","","malins pass ","11 km promenad","Styrkekvart","40 min jogg"],["30 yoga 15 styrka","40 jogg","","40 jogg 15 styrka","","40 jogg 60 armh","Veckotest"],["90 prom","","","40 yoga","40 jogg","paulokvart","paulokvart"]]},{"name":"Tobbe","training":[["","","","X","x","X","x"],["X","x","X","x","","X"],["X","","","Tabata med Lill-p","xxx","MTB","MTB plus styrka"],["","Lätt styrka"],["Cykling","","MTB + styrka","Rodd"],[],["Stolpjakt","","Långpromenad","","Cykling ","Löpning + styrka","Bollsport"]]},{"name":"David","training":[["30 min löp","","70 min cykel","Tabata armh","","tabata situps","40 min löp"],["","","Styrketr, tabata rodd","70 min cykel","styrketr, cykel","tabata pullups","styrketr, kettlebell"],["tabata lekland","Styrketr kettlebell","Styrketr kettlebell","","","Styrketr","35 min löp"],[],["","Styrketräning kbell","Löpning 40 min","","","","Styrketräning"],["Löpning 50 min","","Styrketräning kbell","Löpn 40 min","Styrketräning kbell"],["Löpning 40 Rocklunda yea","Styrketrän kbell","","Löpn 40 min Marek","Styrketrän kbell","","Löpn 40 min"]]}]}
+{
+  "startDate": "2016-07-25",
+  "trainingData": [
+    {
+      "name": "Lotta",
+      "training": [
+        [
+          "",
+          "60 PT plus cykling 40",
+          "trail cykling 60",
+          "trail cykling 50",
+          "",
+          "bakislöpning 30, cykling 30 ",
+          "vattenland och promenad 30"
+        ],
+        [
+          "",
+          "PT 60 min fokus ben, cykla 30 min",
+          "cykling 30 min",
+          "",
+          "cykling 1h10min trail",
+          "Löpning 50 min",
+          "kort styrka \"typ mini-tabata\""
+        ],
+        [
+          "Löpning \"hansa style\" längs ringmuren i Visby, 50 situps",
+          "",
+          "",
+          "",
+          "Sommargenomgång PT"
+        ],
+        [
+          "",
+          "promenad 30 min plus vattenland ",
+          "Vattengympa på lyxhotell Mallis ",
+          "Grottvandring"
+        ],
+        [
+          "Trail 4 km",
+          "",
+          "",
+          "powerwalk 45 min+styrka",
+          "davids tabata, styrka plus löpning",
+          "MTB",
+          "MTB"
+        ],
+        [
+          "löpning 4 km",
+          "cykling 1h",
+          "",
+          "löpning inkl löpstyrka landet ",
+          "Löpning",
+          "traillöpning stockby"
+        ],
+        [
+          "Fjällvandring",
+          "fjällvandring + MTB",
+          "fjällvandring + off trail tävling",
+          "fjällvandring ",
+          "Kajak",
+          "fjällvandring",
+          "fjällvandring"
+        ]
+      ]
+    },
+    {
+      "name": "Peter",
+      "training": [
+        [
+          "15 mc, 8 tabata",
+          "45 prom, 8 tabata",
+          "Löp t jobbet ",
+          "40 m löp",
+          "",
+          "30 mc",
+          "50 löp inkl löpskoln. 8 tabata"
+        ],
+        [
+          "Löp t o f jobbet",
+          "",
+          " Löp t jobbet & squash ",
+          "",
+          "Löp t Ww (25 m) + 8 tabata",
+          "Löp 7 km m Lotta",
+          "Fornstigen"
+        ],
+        [
+          "Styrka 15 min",
+          " Löp t o f jobbet",
+          "",
+          "8 tabata m Tobbe",
+          "",
+          "Sim 35 min",
+          "Löp 14 km"
+        ],
+        [
+          "Tabata 8, löp 30 min",
+          "Tobbes kvart",
+          "Löp 11,5 km kyrkstigen ",
+          "Akka o Antons coreträning",
+          "8 km löp m Anton",
+          "7,5 löp Norra Vi-flåset",
+          "8,3 km löp"
+        ],
+        [
+          "Johans kvart",
+          "14,3 km",
+          "Malins kvart",
+          "",
+          "",
+          "Cirkelträning m Lottas gymband",
+          "9,5 km löpning "
+        ],
+        [
+          "40 min rodd (varav en kvart hämta flytsaker i oväder)",
+          "18 km löp",
+          "7 km m Henrik",
+          "4,5 km o löpskola m Lotta",
+          "Simma 20 min o 7 km löp m Henrik E",
+          "4,5 km löp m Henrik E",
+          "Veckotest m Malin"
+        ],
+        [
+          "",
+          "9 km löp",
+          "",
+          "8 km löp i Bol",
+          "8 km löp i Bol",
+          "Cirkelkvart m Malin",
+          "Cirkelkvart m Malin"
+        ]
+      ]
+    },
+    {
+      "name": "Johan",
+      "training": [
+        [],
+        [],
+        [],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Löpning 6,5 km"
+        ]
+      ]
+    },
+    {
+      "name": "Henrik",
+      "training": [
+        [
+          "1",
+          "1",
+          "1",
+          "",
+          "",
+          "1",
+          "1"
+        ],
+        [
+          "",
+          "",
+          "1",
+          "1",
+          "",
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "",
+          "1",
+          "1",
+          "1",
+          "",
+          "1"
+        ],
+        [
+          "1",
+          "",
+          "1",
+          "1",
+          "",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "Malin",
+      "training": [
+        [
+          "45 prom 8 tabata",
+          "90 prom 8 tabata",
+          "8 tabata",
+          "75 energy yoga",
+          "",
+          "",
+          "60 prom 8 tabata"
+        ],
+        [
+          "60 prom",
+          "",
+          "30 prom 8 tabata",
+          "",
+          "",
+          "5 k jogg + stretchpass"
+        ],
+        [],
+        [
+          "",
+          "60 prom 15 styrka",
+          "3 h prom 30 min yoga",
+          "Core m Akka ",
+          "60 prom",
+          "60 prom",
+          "60 prom 15 styrka"
+        ],
+        [
+          "",
+          "JH kvart + 5 k jogg",
+          "",
+          "malins pass ",
+          "11 km promenad",
+          "Styrkekvart",
+          "40 min jogg"
+        ],
+        [
+          "30 yoga 15 styrka",
+          "40 jogg",
+          "",
+          "40 jogg 15 styrka",
+          "",
+          "40 jogg 60 armh",
+          "Veckotest"
+        ],
+        [
+          "90 prom",
+          "",
+          "",
+          "40 yoga",
+          "40 jogg",
+          "paulokvart",
+          "paulokvart"
+        ]
+      ]
+    },
+    {
+      "name": "Tobbe",
+      "training": [
+        [
+          "",
+          "",
+          "",
+          "X",
+          "x",
+          "X",
+          "x"
+        ],
+        [
+          "X",
+          "x",
+          "X",
+          "x",
+          "",
+          "X"
+        ],
+        [
+          "X",
+          "",
+          "",
+          "Tabata med Lill-p",
+          "xxx",
+          "MTB",
+          "MTB plus styrka"
+        ],
+        [
+          "",
+          "Lätt styrka"
+        ],
+        [
+          "Cykling",
+          "",
+          "MTB + styrka",
+          "Rodd"
+        ],
+        [],
+        [
+          "Stolpjakt",
+          "",
+          "Långpromenad",
+          "",
+          "Cykling ",
+          "Löpning + styrka",
+          "Bollsport"
+        ]
+      ]
+    },
+    {
+      "name": "David",
+      "training": [
+        [
+          "30 min löp",
+          "",
+          "70 min cykel",
+          "Tabata armh",
+          "",
+          "tabata situps",
+          "40 min löp"
+        ],
+        [
+          "",
+          "",
+          "Styrketr, tabata rodd",
+          "70 min cykel",
+          "styrketr, cykel",
+          "tabata pullups",
+          "styrketr, kettlebell"
+        ],
+        [
+          "tabata lekland",
+          "Styrketr kettlebell",
+          "Styrketr kettlebell",
+          "",
+          "",
+          "Styrketr",
+          "35 min löp"
+        ],
+        [],
+        [
+          "",
+          "Styrketräning kbell",
+          "Löpning 40 min",
+          "",
+          "",
+          "",
+          "Styrketräning"
+        ],
+        [
+          "Löpning 50 min",
+          "",
+          "Styrketräning kbell",
+          "Löpn 40 min",
+          "Styrketräning kbell"
+        ],
+        [
+          "Löpning 40 Rocklunda yea",
+          "Styrketrän kbell",
+          "",
+          "Löpn 40 min Marek",
+          "Styrketrän kbell",
+          "",
+          "Löpn 40 min"
+        ]
+      ]
+    }
+  ]
+}

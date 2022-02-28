@@ -121,7 +121,8 @@ Man drar igång en lokal DynamoDB mha `docker-compose up`, sedan kan man accessa
 `aws dynamodb list-tables --endpoint-url http://localhost:8000 `
 
 ## State
-Köra:
+### Skapa state från eventstream
+### Lokalt
 
 I lein:
 ```shell
@@ -130,6 +131,15 @@ user=> (require '[fivepelo-aggr.helpers :as h])
 user=> (require '[fivepelo-aggr.stateFromEventStream :as sfe])
 user=> (use 'fivepelo-aggr.eventStreamFromSheet :reload)
 user=> ((comp h/pprnt  sfe/groupByWeekAndPerson  extractTrainingEntriesFromSheetV2) (h/testDataGs))
+```
+### Mot Lambda i AWS
+
+
+![](doc/bilder/IMG_0779.jpg)
+```
+cd scripts/eventstream/aws-lambda 
+sam local start-api
+curl "http://127.0.0.1:3000/fetch-events?startDate=2021-01-077&endDate=2021-03-01"
 ```
 
 ## TODO:

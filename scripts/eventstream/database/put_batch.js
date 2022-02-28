@@ -2,9 +2,9 @@ var AWS = require("aws-sdk");
 var fs = require('fs');
 
 AWS.config.update({
-  region: 'eu-north-1'
-  // region: "local",
-  // endpoint: "http://localhost:8000"
+//  region: 'eu-north-1'
+   region: "local",
+   endpoint: "http://localhost:8000"
 });
 
 console.log(process.argv);
