@@ -1,4 +1,4 @@
-(ns fivepelo-aggr.eventStreamFromSheet_test
+(ns fivepelo-aggr.eventStreamFromSheet-test
   (:require [clojure.test :refer :all]
             [fivepelo-aggr.eventStreamFromSheet :refer :all]
             [fivepelo-aggr.helpers :refer :all]

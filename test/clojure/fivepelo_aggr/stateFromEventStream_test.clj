@@ -1,24 +1,73 @@
-(ns fivepelo-aggr.stateFromEventStream_test
+(ns fivepelo-aggr.stateFromEventStream-test
   (:require [clojure.test :refer :all]
             [fivepelo-aggr.stateFromEventStream :refer :all]
             [fivepelo-aggr.helpers :refer :all]
             ))
 
 (deftest groupByWeekAndPerson-test
-  (def sut (groupByWeekAndPerson (testData)))
+
+  (def sut (groupByWeekAndPerson (sheetData "scripts/eventstream/output/period30.json")))
   (def nthWeekParticipants (comp :participants #(nth %1 %2)))
 
   (def firstWeekParticipantsFirstTrainings (comp #(map first %) #(map :training %) #(nthWeekParticipants % 0)))
 
-  (testing "A list of length 1"
-    (is (= 2 (count sut)))
+  (testing "The state constructed from the eventstream"
+    ; (pprnt sut)
+    (testing "should have 7 weeks"
+      (is (= 7 (count sut))))
 
-    (is (= 48 (get (first sut) :weekOfYear)))
-    (is (= '("David Johansson" "Johanna Ljung") (map :name (nthWeekParticipants sut 0))))
-    (is (= '("Löpning Rocklunda" "Yoga") (map :activity (firstWeekParticipantsFirstTrainings sut))))
-    (is (= '("2020-12-01" "2020-11-31") (map :date (firstWeekParticipantsFirstTrainings sut))))
+    (testing "should start with week 1"
+      (is (= 1 (get (first sut) :weekOfYear))))
 
-    (is (= 49 (get (nth sut 1) :weekOfYear)))
-    (is (= '("David Johansson" "Johanna Ljung" "Peter") (map :name (nthWeekParticipants sut 1))))
-    )
+    (testing "should contain weeks 1 to 7"
+      (is (= '(1 2 3 4 5 6 7) (map :weekOfYear sut))))
+
+    (testing "should have the specified participants"
+      (is (= '("Johan"
+                "Peter"
+                "Sophia"
+                "Eric"
+                "Johanna"
+                "Lotta"
+                "Malin"
+                "David"
+                "Tobbe") (map :name (nthWeekParticipants sut 0)))))
+
+    (testing "should have the specified activities"
+      (is (= '("Löpning 9,5 km"
+                "Yoga 3 + knä-Arnold"
+                "PT crossfit "
+                "Löpning med Claes "
+                "Yoga breath dag 3 + överkropp + core"
+                "Hajk Great Falls m Henrik 2h"
+                "Yoga ink huvudstående"
+                "Styrka"
+                "Hemmastyrka ")
+
+             (map :activity (firstWeekParticipantsFirstTrainings sut)))))
+
+
+    (testing "should have the specified dates"
+      (is (= '("2021-01-04"
+                "2021-01-04"
+                "2021-01-04"
+                "2021-01-04"
+                "2021-01-04"
+                "2021-01-04"
+                "2021-01-04"
+                "2021-01-04"
+                "2021-01-05")
+             (map :date (firstWeekParticipantsFirstTrainings sut))))
+      )
+
+    (testing "should have the specified participants the second week"
+      (is (= '("Johan"
+                "Peter"
+                "Sophia"
+                "Eric"
+                "Johanna"
+                "Lotta"
+                "Malin"
+                "David"
+                "Tobbe") (map :name (nthWeekParticipants sut 1))))))
   )

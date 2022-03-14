@@ -10,6 +10,7 @@
                  [clj-time "0.15.2"]
                  [cheshire "5.10.0"]]
   :source-paths      ["src/clojure"]
+  :test-paths      ["test/clojure"]
   :java-source-paths ["src/java"]
   :uberjar-name "fivepelo-aggr.jar"
   :main fivepelo-aggr.eventStreamFromSheet

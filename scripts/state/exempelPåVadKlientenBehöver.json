@@ -1,0 +1,635 @@
+{
+  "currentWeek": 1,
+  "period": {
+    "id": "19",
+    "weeks": [
+      {
+        "countInPeriod": 1,
+        "startDate": "2020-04-13",
+        "endDate": "2020-04-19",
+        "participants": [
+          {
+            "name": "Lotta (green)",
+            "percentage": 11,
+            "training": [
+              {
+                "day": "Mon 13/4",
+                "training": "Löpning"
+              },
+              {
+                "day": "Tue 14/4",
+                "training": "Styrkelyft med PT"
+              },
+              {
+                "day": "Wed 15/4",
+                "training": "Intervaller med klubben (2 k uppv, löpskola, 3*7 min @ 4,50)"
+              },
+              {
+                "day": "Thu 16/4",
+                "training": "Military Training 75 min"
+              },
+              {
+                "day": "Fri 17/4",
+                "training": "Trail med LillP Kärsön ca 6km"
+              },
+              {
+                "day": "Sat 18/4",
+                "training": "PT \"disco fredag\" aka bodybuilding"
+              },
+              {
+                "day": "Sun 19/4",
+                "training": "PT \"disco fredag\" aka bodybuilding"
+              }
+            ]
+          },
+          {
+            "name": "Peter (red)",
+            "percentage": 22,
+            "training": [
+              {
+                "day": "Mon 13/4",
+                "training": "35 min mc"
+              },
+              {
+                "day": "Tue 14/4",
+                "training": ""
+              },
+              {
+                "day": "Wed 15/4",
+                "training": "45 min yoga"
+              },
+              {
+                "day": "Thu 16/4",
+                "training": ""
+              },
+              {
+                "day": "Fri 17/4",
+                "training": "Kärrsön m Lotta"
+              },
+              {
+                "day": "Sat 18/4",
+                "training": "Tennis"
+              },
+              {
+                "day": "Sun 19/4",
+                "training": ""
+              }
+            ]
+          },
+          {
+            "name": "David (red)",
+            "percentage": 22,
+            "training": [
+              {
+                "day": "Mon 13/4",
+                "training": ""
+              },
+              {
+                "day": "Tue 14/4",
+                "training": ""
+              },
+              {
+                "day": "Wed 15/4",
+                "training": "45 min yoga"
+              },
+              {
+                "day": "Thu 16/4",
+                "training": ""
+              },
+              {
+                "day": "Fri 17/4",
+                "training": "Kärrsön m Lotta"
+              },
+              {
+                "day": "Sat 18/4",
+                "training": "Tennis"
+              },
+              {
+                "day": "Sun 19/4",
+                "training": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "countInPeriod": 2,
+        "startDate": "2020-04-20",
+        "endDate": "2020-04-26",
+        "participants": [
+          {
+            "name": "Lotta (green)",
+            "percentage": 11,
+            "training": [
+              {
+                "day": "Mon 20/4",
+                "training": "Löpning"
+              },
+              {
+                "day": "Tue 21/4",
+                "training": " Styrkelyft med PT "
+              },
+              {
+                "day": "Wed 22/4",
+                "training": " Intervaller med klubben (2 k uppv, löps,kola, 3*7 min @ 4,50) "
+              },
+              {
+                "day": "Thu 23/4",
+                "training": " Military Training 75 min "
+              },
+              {
+                "day": "Fri 24/4",
+                "training": "Löpning"
+              },
+              {
+                "day": "Sat 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sun 26/4",
+                "training": ""
+              }
+            ]
+          },
+          {
+            "name": "Peter (olive)",
+            "percentage": 22,
+            "training": [
+              {
+                "day": "Mon 20/4",
+                "training": "35 min mc"
+              },
+              {
+                "day": "Tue 21/4",
+                "training": "30 min löp"
+              },
+              {
+                "day": "Wed 22/4",
+                "training": "45 min yoga"
+              },
+              {
+                "day": "Thu 23/4",
+                "training": ""
+              },
+              {
+                "day": "Fri 24/4",
+                "training": "Löpning"
+              },
+              {
+                "day": "Sat 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sun 26/4",
+                "training": ""
+              }
+            ]
+          },
+          {
+            "name": "David (red)",
+            "percentage": 22,
+            "training": [
+              {
+                "day": "Mon 20/4",
+                "training": ""
+              },
+              {
+                "day": "Tue 21/4",
+                "training": ""
+              },
+              {
+                "day": "Wed 22/4",
+                "training": ""
+              },
+              {
+                "day": "Thu 23/4",
+                "training": "Löpning"
+              },
+              {
+                "day": "Fri 24/4",
+                "training": ""
+              },
+              {
+                "day": "Sat 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sun 26/4",
+                "training": ""
+              }
+            ]
+          },
+          {
+            "name": "Johanna (yellow)",
+            "percentage": 22,
+            "training": [
+              {
+                "day": "Mon 20/4",
+                "training": ""
+              },
+              {
+                "day": "Tue 21/4",
+                "training": ""
+              },
+              {
+                "day": "Wed 22/4",
+                "training": "Yoga"
+              },
+              {
+                "day": "Thu 23/4",
+                "training": "Pamela"
+              },
+              {
+                "day": "Fri 24/4",
+                "training": ""
+              },
+              {
+                "day": "Sat 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sun 26/4",
+                "training": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "countInPeriod": 3,
+        "startDate": "2020-04-27",
+        "endDate": "2020-05-03",
+        "participants": [
+          {
+            "name": "Lotta",
+            "percentage": 0,
+            "training": [
+              {
+                "day": "Mån 20/4",
+                "training": ""
+              },
+              {
+                "day": "Tis 21/4",
+                "training": ""
+              },
+              {
+                "day": "Ons 22/4",
+                "training": ""
+              },
+              {
+                "day": "Tor 23/4",
+                "training": ""
+              },
+              {
+                "day": "Fre 24/4",
+                "training": ""
+              },
+              {
+                "day": "Lör 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sön 26/4",
+                "training": ""
+              }
+            ]
+          },
+          {
+            "name": "Peter",
+            "percentage": 0,
+            "training": [
+              {
+                "day": "Mån 20/4",
+                "training": ""
+              },
+              {
+                "day": "Tis 21/4",
+                "training": ""
+              },
+              {
+                "day": "Ons 22/4",
+                "training": ""
+              },
+              {
+                "day": "Tor 23/4",
+                "training": ""
+              },
+              {
+                "day": "Fre 24/4",
+                "training": ""
+              },
+              {
+                "day": "Lör 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sön 26/4",
+                "training": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "countInPeriod": 4,
+        "startDate": "2020-05-04",
+        "endDate": "2020-05-10",
+        "participants": [
+          {
+            "name": "Lotta",
+            "percentage": 0,
+            "training": [
+              {
+                "day": "Mån 20/4",
+                "training": ""
+              },
+              {
+                "day": "Tis 21/4",
+                "training": ""
+              },
+              {
+                "day": "Ons 22/4",
+                "training": ""
+              },
+              {
+                "day": "Tor 23/4",
+                "training": ""
+              },
+              {
+                "day": "Fre 24/4",
+                "training": ""
+              },
+              {
+                "day": "Lör 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sön 26/4",
+                "training": ""
+              }
+            ]
+          },
+          {
+            "name": "Peter",
+            "percentage": 0,
+            "training": [
+              {
+                "day": "Mån 20/4",
+                "training": ""
+              },
+              {
+                "day": "Tis 21/4",
+                "training": ""
+              },
+              {
+                "day": "Ons 22/4",
+                "training": ""
+              },
+              {
+                "day": "Tor 23/4",
+                "training": ""
+              },
+              {
+                "day": "Fre 24/4",
+                "training": ""
+              },
+              {
+                "day": "Lör 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sön 26/4",
+                "training": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "countInPeriod": 5,
+        "startDate": "2020-05-11",
+        "endDate": "2020-05-17",
+        "participants": [
+          {
+            "name": "Lotta",
+            "percentage": 0,
+            "training": [
+              {
+                "day": "Mån 20/4",
+                "training": ""
+              },
+              {
+                "day": "Tis 21/4",
+                "training": ""
+              },
+              {
+                "day": "Ons 22/4",
+                "training": ""
+              },
+              {
+                "day": "Tor 23/4",
+                "training": ""
+              },
+              {
+                "day": "Fre 24/4",
+                "training": ""
+              },
+              {
+                "day": "Lör 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sön 26/4",
+                "training": ""
+              }
+            ]
+          },
+          {
+            "name": "Peter",
+            "percentage": 0,
+            "training": [
+              {
+                "day": "Mån 20/4",
+                "training": ""
+              },
+              {
+                "day": "Tis 21/4",
+                "training": ""
+              },
+              {
+                "day": "Ons 22/4",
+                "training": ""
+              },
+              {
+                "day": "Tor 23/4",
+                "training": ""
+              },
+              {
+                "day": "Fre 24/4",
+                "training": ""
+              },
+              {
+                "day": "Lör 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sön 26/4",
+                "training": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "countInPeriod": 6,
+        "startDate": "2020-05-25",
+        "endDate": "2020-05-31",
+        "participants": [
+          {
+            "name": "Lotta",
+            "percentage": 0,
+            "training": [
+              {
+                "day": "Mån 20/4",
+                "training": ""
+              },
+              {
+                "day": "Tis 21/4",
+                "training": ""
+              },
+              {
+                "day": "Ons 22/4",
+                "training": ""
+              },
+              {
+                "day": "Tor 23/4",
+                "training": ""
+              },
+              {
+                "day": "Fre 24/4",
+                "training": ""
+              },
+              {
+                "day": "Lör 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sön 26/4",
+                "training": ""
+              }
+            ]
+          },
+          {
+            "name": "Peter",
+            "percentage": 0,
+            "training": [
+              {
+                "day": "Mån 20/4",
+                "training": ""
+              },
+              {
+                "day": "Tis 21/4",
+                "training": ""
+              },
+              {
+                "day": "Ons 22/4",
+                "training": ""
+              },
+              {
+                "day": "Tor 23/4",
+                "training": ""
+              },
+              {
+                "day": "Fre 24/4",
+                "training": ""
+              },
+              {
+                "day": "Lör 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sön 26/4",
+                "training": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "countInPeriod": 7,
+        "startDate": "2020-05-25",
+        "endDate": "2020-05-31",
+        "participants": [
+          {
+            "name": "Lotta",
+            "percentage": 0,
+            "training": [
+              {
+                "day": "Mån 20/4",
+                "training": ""
+              },
+              {
+                "day": "Tis 21/4",
+                "training": ""
+              },
+              {
+                "day": "Ons 22/4",
+                "training": ""
+              },
+              {
+                "day": "Tor 23/4",
+                "training": ""
+              },
+              {
+                "day": "Fre 24/4",
+                "training": ""
+              },
+              {
+                "day": "Lör 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sön 26/4",
+                "training": ""
+              }
+            ]
+          },
+          {
+            "name": "Peter",
+            "percentage": 0,
+            "training": [
+              {
+                "day": "Mån 20/4",
+                "training": ""
+              },
+              {
+                "day": "Tis 21/4",
+                "training": ""
+              },
+              {
+                "day": "Ons 22/4",
+                "training": ""
+              },
+              {
+                "day": "Tor 23/4",
+                "training": ""
+              },
+              {
+                "day": "Fre 24/4",
+                "training": ""
+              },
+              {
+                "day": "Lör 25/4",
+                "training": ""
+              },
+              {
+                "day": "Sön 26/4",
+                "training": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
