@@ -30,9 +30,17 @@
 (defn groupByWeek
   [eventStream]
   (def themap (group-by weekOfYear eventStream))
-  (map (fn [[k v]] {:weekOfYear k :participants v}) themap))
+  (map (fn [[k v]]
+         (def firstDateOfWeek (Woy/firstDateOfWeek (get-in v [1 :date])))
+         (def lastDateOfWeek (Woy/lastDateOfWeek (get-in v [1 :date])))
+         {:weekOfYear k :startDate firstDateOfWeek :endDate lastDateOfWeek :participants v})
+       themap))
 
 (defn groupByWeekAndPerson
-  [eventStream]
-  (groupByPerson (groupByWeek eventStream)))
+  [eventStream periodId]
+  (def weeks (groupByPerson (groupByWeek eventStream)) ))
+  {:period periodId :weeks weeks}
 
+(defn -main
+  []
+  ((comp helpers/pprnt helpers/cljToJson groupByWeekAndPerson) helpers/testDataEventStream 30))

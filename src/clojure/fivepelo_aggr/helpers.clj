@@ -42,6 +42,7 @@
   []
   (sheetData "raw-from-gs.json"))
 
+(def testDataEventStream (sheetData "scripts/eventstream/output/period30.json"))
 
 (def a {:participants [{:type     "activity",
                         :name     "David Johansson",

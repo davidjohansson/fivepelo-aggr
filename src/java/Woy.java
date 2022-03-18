@@ -1,6 +1,7 @@
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.temporal.WeekFields;
 import java.util.Calendar;
@@ -12,9 +13,22 @@ public class Woy {
     public static final Locale A_LOCALE = new Locale("sv", "SE");
 
     public static void main(String[] args) throws Exception {
-        final String dateString = "2021-01-11";
+        final String dateString = "2022-03-22";
         cal(dateString);
         instant(dateString);
+        firstDateOfWeek(dateString);
+    }
+
+    public static String firstDateOfWeek(String dateString) {
+        LocalDate date = LocalDate.parse(dateString);
+        final LocalDate firstDayOfWeek = date.with(DayOfWeek.MONDAY);
+        return firstDayOfWeek.toString();
+    }
+
+    public static String lastDateOfWeek(String dateString) {
+        LocalDate date = LocalDate.parse(dateString);
+        final LocalDate firstDayOfWeek = date.with(DayOfWeek.SUNDAY);
+        return firstDayOfWeek.toString();
     }
 
     private static void cal(String dateString) throws ParseException {

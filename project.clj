@@ -8,11 +8,15 @@
                  [uswitch/lambada "0.1.2"]
                  [clojure.java-time "0.3.2"]
                  [clj-time "0.15.2"]
-                 [cheshire "5.10.0"]]
+                 [cheshire "5.10.0"]
+                 [org.junit.jupiter/junit-jupiter-api "5.8.2"]
+                 ]
   :source-paths      ["src/clojure"]
   :test-paths      ["test/clojure"]
   :java-source-paths ["src/java"]
+  :java-test-paths ["test/java"]
   :uberjar-name "fivepelo-aggr.jar"
-  :main fivepelo-aggr.eventStreamFromSheet
+  ;:main fivepelo-aggr.eventStreamFromSheet
+  :main fivepelo-aggr.stateFromEventStream
   :profiles {:uberjar {:aot :all :jvm-opts ["-Dclojure.compiler.direct-linking=true -Duser.country=SE -Duser.language=sv"]}})
 
