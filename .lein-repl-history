@@ -1,10 +1,3 @@
-(use 'fivepelo-aggr.eventStreamFromSheet :reload)
-(extractTrainingEntriesFromSheetV2 (h/testDataGs))
- (h/testDataGs)
-(extractTrainingEntriesFromSheetV2 (h/testDataGs))
-(h/pprn (extractTrainingEntriesFromSheetV2 (h/testDataGs)))
-(h/pprnt (extractTrainingEntriesFromSheetV2 (h/testDataGs)))
-clear
 (h/pprnt (extractTrainingEntriesFromSheetV2 (h/testDataGs)))
 (use 'fivepelo-aggr.eventStreamFromSheet :reload)
 (doc alength)
@@ -497,4 +490,11 @@ clear
 (groupByWeek testDataEventStream) 
 (use 'fivepelo-aggr.stateFromEventStream :reload)
 (groupByWeek testDataEventStream) 
+exit
+(use 'fivepelo-aggr.stateFromEventStream :reload)
+(use 'fivepelo-aggr.helpers :reload)
+(groupByWeek testDataEventStream 12) 
+(sfe/groupByWeekAndPerson (h/testDataEventStream) 12) 
+(groupByWeekAndPerson (testDataEventStream) 12) 
+(groupByWeekAndPerson testDataEventStream 12) 
 exit

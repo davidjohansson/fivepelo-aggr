@@ -38,8 +38,8 @@
 
 (defn groupByWeekAndPerson
   [eventStream periodId]
-  (def weeks (groupByPerson (groupByWeek eventStream)) ))
-  {:period periodId :weeks weeks}
+  (def weeks (groupByPerson (groupByWeek eventStream)))
+  {:period { :id periodId :weeks weeks}})
 
 (defn -main
   []
