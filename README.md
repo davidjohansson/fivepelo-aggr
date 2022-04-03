@@ -134,19 +134,20 @@ I lein, med en lokal json-fil med en eventström som input:
 
 
 ```shell
-$ lein repl
- ((comp h/pprnt  sfe/groupByWeekAndPerson) (h/sheetData "scripts/eventstream/output/period30.json"))
+$ lein rep
+user=> (require '[fivepelo-aggr.helpers :as h])
+user=> (require '[fivepelo-aggr.stateFromEventStream :as sfe])
+user=> ((comp h/pprnt  sfe/groupByWeekAndPerson) (h/sheetData "scripts/eventstream/output/period30.json"))
+
 ```
 Detta outputtar edn, samma i json:
 ```shell
-  ((comp h/pprnt h/cljToJson sfe/groupByWeekAndPerson) (h/sheetData "scripts/eventstream/output/period30.json"))
+user=> ((comp h/pprnt h/cljToJson sfe/groupByWeekAndPerson) (h/sheetData "scripts/eventstream/output/period30.json"))
 ```
 
-I lein:
+Med data från genererade eventstreams:
 ```shell
 $ lein repl
-user=> (require '[fivepelo-aggr.helpers :as h])
-user=> (require '[fivepelo-aggr.stateFromEventStream :as sfe])
 user=> (use 'fivepelo-aggr.eventStreamFromSheet :reload)
 user=> ((comp h/pprnt  sfe/groupByWeekAndPerson  extractTrainingEntriesFromSheetV2) (h/testDataGs))
 ```
