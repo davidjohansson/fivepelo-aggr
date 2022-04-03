@@ -16,7 +16,7 @@
   :java-source-paths ["src/java"]
   :java-test-paths ["test/java"]
   :uberjar-name "fivepelo-aggr.jar"
-  ;:main fivepelo-aggr.eventStreamFromSheet
-  :main fivepelo-aggr.stateFromEventStream
+  :main fivepelo-aggr.eventStreamFromSheet
+  ;:main fivepelo-aggr.stateFromEventStream
   :profiles {:uberjar {:aot :all :jvm-opts ["-Dclojure.compiler.direct-linking=true -Duser.country=SE -Duser.language=sv"]}})
 

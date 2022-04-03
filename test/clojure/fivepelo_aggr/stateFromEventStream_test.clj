@@ -6,7 +6,7 @@
 
 (deftest groupByWeekAndPerson-test
 
-  (def sut (groupByWeekAndPerson (sheetData "scripts/eventstream/output/period30.json")))
+  (def sut (groupByWeekAndPerson (sheetData "scripts/eventstream/output/period30.json") 12))
   (def nthWeekParticipants (comp :participants #(nth %1 %2)))
 
   (def firstWeekParticipantsFirstTrainings (comp #(map first %) #(map :training %) #(nthWeekParticipants % 0)))
