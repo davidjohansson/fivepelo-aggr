@@ -1,16 +1,3 @@
-(h/pprnt (extractTrainingEntriesFromSheetV2 (h/testDataGs)))
-(use 'fivepelo-aggr.eventStreamFromSheet :reload)
-(doc alength)
-(alength (1 2 3))
-(alength (:s :v))
-(count '(1 2 3))
-(use 'fivepelo-aggr.eventStreamFromSheet :reload)
-(h/pprnt (extractTrainingEntriesFromSheetV2 (h/testDataGs)))
-(map #(+ 1 %)(range 1 7))
-(map #(+ 0 %)(range 1 7))
-(map #(+ 0 %)(range (count '(1 2 )) 7))
-(doc conj)
-(map #(+ 0 %)(range 1 7))
 (range (count '(1 2 )) 7))
 (range (count '(1 2 )) 7)
 (map #(:s) (range (count '(1 2 )) 7))
@@ -497,4 +484,17 @@ exit
 (sfe/groupByWeekAndPerson (h/testDataEventStream) 12) 
 (groupByWeekAndPerson (testDataEventStream) 12) 
 (groupByWeekAndPerson testDataEventStream 12) 
+exit
+(require '[fivepelo-aggr.stateFromEventStream :as sfe])
+(use 'fivepelo-aggr.helpers :reload)
+(groupByWeekAndPerson testDataEventStream 12) 
+(use 'fivepelo-aggr.stateFromEventStream :reload)
+(groupByWeekAndPerson testDataEventStream 12) 
+clear
+(groupByWeekAndPerson testDataEventStream 12) clear
+((comp h/pprnt h/cljToJson sfe/groupByWeekAndPerson) (h/sheetData "scripts/eventstream/output/period30.json"))
+((comp h/pprnt h/cljToJson groupByWeekAndPerson) (sheetData "scripts/eventstream/output/period30.json"))
+((comp pprnt cljToJson groupByWeekAndPerson) (sheetData "scripts/eventstream/output/period30.json"))
+((comp pprnt cljToJson groupByWeekAndPerson) (sheetData "scripts/eventstream/output/period30.json") 12)
+clear
 exit

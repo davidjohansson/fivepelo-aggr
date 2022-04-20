@@ -42,5 +42,6 @@
   {:period { :id periodId :weeks weeks}})
 
 (defn -main
-  []
-  ((comp helpers/pprnt helpers/cljToJson groupByWeekAndPerson) helpers/testDataEventStream 30))
+  [file periodId]
+  (helpers/pprnt file)
+  ((comp helpers/pprnt helpers/cljToJson groupByWeekAndPerson) ( helpers/sheetData file ) periodId))
